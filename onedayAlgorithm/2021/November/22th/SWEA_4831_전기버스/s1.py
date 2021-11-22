@@ -31,7 +31,7 @@ def electric_bus(K, N, M):
                     if now == prev_now:
                         return 0
                     break
-
+    # 충전횟수를 return 한다.
     return charged
 
 T = int(input())
