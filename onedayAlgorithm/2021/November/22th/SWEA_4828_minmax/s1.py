@@ -9,6 +9,7 @@ for t in range(1, T+1):
     # 가장 큰 수와 가장 작은 수를 구한다.
     max_num = 0
     min_num = 1000000
+    # 한번의 반복문으로 가능하다.
     for i in range(N):
         if Array[i] > max_num:
             max_num = Array[i]
