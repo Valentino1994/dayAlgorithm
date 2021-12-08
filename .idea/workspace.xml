@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c6d3e5-e260-4804-924f-34681e293d3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2021/12_December/6th/PROG_LV2_오픈채팅방/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2021/12_December/8th/PROG_Lv2_메뉴리뉴얼/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2021/12_December/8th/PROG_Lv2_메뉴리뉴얼/s2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2021/12_December/8th/PROG_Lv2_메뉴리뉴얼/s3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,66 +17,66 @@
     <session id="-1507397969">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="19" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="5" />
-          <entry key="project.open.time.3" value="10" />
+          <entry key="project.open.time.3" value="12" />
           <entry key="project.open.time.4" value="2" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="py" value="18" />
+          <entry key="py" value="21" />
           <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="18" />
+          <entry key="Python" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="8655" />
+          <entry key="py" value="10596" />
           <entry key="txt" value="84" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="84" />
-          <entry key="Python" value="8655" />
+          <entry key="Python" value="10596" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/onedayAlgorithm/2021/12_December/4th/PROG_LV1_숫자문자열과영단어/s1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1064">
-              <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/onedayAlgorithm/2021/12_December/4th/PROG_LV1_숫자문자열과영단어/s2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/onedayAlgorithm/2021/12_December/6th/PROG_LV2_오픈채팅방/s1.py">
+        <entry file="file://$PROJECT_DIR$/onedayAlgorithm/2021/12_December/8th/PROG_Lv2_메뉴리뉴얼/s1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            <state relative-caret-position="95">
+              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/onedayAlgorithm/2021/12_December/8th/PROG_Lv2_메뉴리뉴얼/s2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" column="45" selection-end-line="34" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/onedayAlgorithm/2021/12_December/8th/PROG_Lv2_메뉴리뉴얼/s3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="14" column="49" lean-forward="true" selection-end-line="14" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -122,6 +125,9 @@
         <option value="$PROJECT_DIR$/onedayAlgorithm/2021/12_December/4th/PROG_LV1_숫자문자열과영단어/s1.py" />
         <option value="$PROJECT_DIR$/onedayAlgorithm/2021/12_December/4th/PROG_LV1_숫자문자열과영단어/s2.py" />
         <option value="$PROJECT_DIR$/onedayAlgorithm/2021/12_December/6th/PROG_LV2_오픈채팅방/s1.py" />
+        <option value="$PROJECT_DIR$/onedayAlgorithm/2021/12_December/8th/PROG_Lv2_메뉴리뉴얼/s2.py" />
+        <option value="$PROJECT_DIR$/onedayAlgorithm/2021/12_December/8th/PROG_Lv2_메뉴리뉴얼/s3.py" />
+        <option value="$PROJECT_DIR$/onedayAlgorithm/2021/12_December/8th/PROG_Lv2_메뉴리뉴얼/s1.py" />
       </list>
     </option>
   </component>
@@ -139,6 +145,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,7 +175,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="RecentsManager">
@@ -194,8 +200,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.s1">
-    <configuration name="s1 (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.s1 (1)">
+    <configuration name="s1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -203,11 +209,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/onedayAlgorithm/2021/12_December/2nd/SWEA_4839_이진탐색" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/onedayAlgorithm/2021/12_December/8th/PROG_Lv2_메뉴리뉴얼" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onedayAlgorithm/2021/12_December/2nd/SWEA_4839_이진탐색/s1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onedayAlgorithm/2021/12_December/8th/PROG_Lv2_메뉴리뉴얼/s1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -301,19 +307,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.s1 (3)" />
       <item itemvalue="Python.s2" />
       <item itemvalue="Python.s1 (4)" />
       <item itemvalue="Python.s2 (1)" />
       <item itemvalue="Python.s1" />
+      <item itemvalue="Python.s1 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.s1 (1)" />
         <item itemvalue="Python.s1" />
         <item itemvalue="Python.s2 (1)" />
         <item itemvalue="Python.s1 (4)" />
         <item itemvalue="Python.s2" />
-        <item itemvalue="Python.s1 (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -387,6 +393,11 @@
           <url>file://$PROJECT_DIR$/onedayAlgorithm/2021/12_December/6th/PROG_LV2_오픈채팅방/s1.py</url>
           <line>27</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/onedayAlgorithm/2021/12_December/8th/PROG_Lv2_메뉴리뉴얼/s1.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -540,7 +551,28 @@
     <entry file="file://$PROJECT_DIR$/onedayAlgorithm/2021/12_December/6th/PROG_LV2_오픈채팅방/s1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onedayAlgorithm/2021/12_December/8th/PROG_Lv2_메뉴리뉴얼/s3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="14" column="49" lean-forward="true" selection-end-line="14" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onedayAlgorithm/2021/12_December/8th/PROG_Lv2_메뉴리뉴얼/s2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="45" selection-end-line="34" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onedayAlgorithm/2021/12_December/8th/PROG_Lv2_메뉴리뉴얼/s1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
