@@ -1,5 +1,6 @@
 def solution(N, M, K, Arr):
 
+    #1
     answer = 0
     arr = sorted(Arr)[::-1]
     cnt = K
