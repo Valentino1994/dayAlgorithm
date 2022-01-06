@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c6d3e5-e260-4804-924f-34681e293d3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/5th/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/5th/s2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/5th/s3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/6th/BOJ_1927_최소힙.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/6th/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/6th/s1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,14 +127,15 @@
       <recent name="C:\Users\Geunil\PycharmProjects\algorithm\onedayAlgorithm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/6th" />
       <recent name="C:\Users\Geunil\PycharmProjects\algorithm\onedayAlgorithm\2021\12_December\4th\PROG_LV1_숫자문자열과영단어" />
       <recent name="C:\Users\Geunil\PycharmProjects\algorithm\onedayAlgorithm\2021\12_December\3rd\PROG_LV1_다트게임" />
       <recent name="C:\Users\Geunil\PycharmProjects\algorithm\onedayAlgorithm\2021\12_December\1st\SWEA_4843_특별한 정렬" />
       <recent name="C:\Users\Geunil\PycharmProjects\algorithm\onedayAlgorithm\2021\November\22th" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.s3">
-    <configuration name="s1 (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.s1">
+    <configuration name="s1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,32 +143,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/1st" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/5th" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/1st/s1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="s1-1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/1st" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/1st/s1-1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/5th/s1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,11 +164,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/5th" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/6th" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/5th/s1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/6th/PROG_무지의먹방라이브/s1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="s1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/6th" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/6th/BOJ_1927_최소힙/s1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -240,19 +241,18 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.s1 (3)" />
-      <item itemvalue="Python.s1-1" />
       <item itemvalue="Python.s1" />
       <item itemvalue="Python.s2 (1)" />
       <item itemvalue="Python.s3" />
+      <item itemvalue="Python.s1 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.s1" />
+        <item itemvalue="Python.s1 (1)" />
         <item itemvalue="Python.s3" />
         <item itemvalue="Python.s2 (1)" />
         <item itemvalue="Python.s1" />
-        <item itemvalue="Python.s1-1" />
-        <item itemvalue="Python.s1 (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -367,8 +367,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/onedayAlgorithm/2022/01_January/5th/s3.py</url>
-          <line>27</line>
+          <line>25</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/onedayAlgorithm/2022/01_January/6th/s1.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
