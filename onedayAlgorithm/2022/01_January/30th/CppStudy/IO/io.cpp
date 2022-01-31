@@ -11,4 +11,8 @@ int main() {
   printf("아이엠어 아이언맨 : %c\n", s);
   printf("아이엠어 아이언맨 : %s\n", str.c_str());
   printf("아이엠어 아이언맨 : %lf\n", b);
+  cout << "아이엠어 캡틴 : " << a << "\n";
+  cout << "아이엠어 캡틴 : " << s << "\n";
+  cout << "아이엠어 캡틴 : " << str << "\n";
+  cout << "아이엠어 캡틴 : " << b << "\n";
 }

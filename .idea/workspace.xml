@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c6d3e5-e260-4804-924f-34681e293d3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/30th/BOJ_7453_합이0인네정수/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/30th/BOJ_7453_합이0인네정수/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/31th/BOJ_21279_광부호석/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/31th/BOJ_21279_광부호석/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/31th/BOJ_7453_합이0인네정수/s2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/30th/BOJ_7453_합이0인네정수/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/31th/BOJ_7453_합이0인네정수/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/30th/BOJ_7453_합이0인네정수/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/31th/BOJ_7453_합이0인네정수/s1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/30th/CppStudy/IO/io" beforeDir="false" afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/30th/CppStudy/IO/io" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/30th/CppStudy/IO/io.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/30th/CppStudy/IO/io.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/30th/CppStudy/type" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/30th/CppStudy/type.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,15 +131,15 @@
       <recent name="C:\Users\Geunil\PycharmProjects\algorithm\onedayAlgorithm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/31th" />
       <recent name="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/6th/PROG_무지의먹방라이브" />
       <recent name="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/6th/BOJ_1927_최소힙" />
       <recent name="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/6th" />
       <recent name="C:\Users\Geunil\PycharmProjects\algorithm\onedayAlgorithm\2021\12_December\4th\PROG_LV1_숫자문자열과영단어" />
-      <recent name="C:\Users\Geunil\PycharmProjects\algorithm\onedayAlgorithm\2021\12_December\3rd\PROG_LV1_다트게임" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.s1">
-    <configuration name="s1 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.s2">
+    <configuration name="s1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,11 +147,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/28th/TwoPointerStudy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/31th/BOJ_7453_합이0인네정수" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/28th/TwoPointerStudy/s1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/31th/BOJ_7453_합이0인네정수/s1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -270,11 +273,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/12th/Examples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/31th/BOJ_7453_합이0인네정수" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/12th/Examples/s2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/31th/BOJ_7453_합이0인네정수/s2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -284,19 +287,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.s2" />
-      <item itemvalue="Python.s1 (2)" />
       <item itemvalue="Python.s1 (3)" />
       <item itemvalue="Python.s1 (4)" />
       <item itemvalue="Python.s1" />
+      <item itemvalue="Python.s1 (1)" />
+      <item itemvalue="Python.s2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.s2" />
+        <item itemvalue="Python.s1 (1)" />
         <item itemvalue="Python.s1" />
         <item itemvalue="Python.s1 (4)" />
         <item itemvalue="Python.s1 (3)" />
-        <item itemvalue="Python.s1 (2)" />
-        <item itemvalue="Python.s2" />
       </list>
     </recent_temporary>
   </component>
