@@ -24,8 +24,5 @@ for p in permutations(range(N), 4):
     a, b, c, d = p[0], p[1], p[2], p[3]
     if (A[a] + B[b] + C[c] + D[d]) == 0:
         cnt += 1
-    print(a, b, c, d)
-    print(A[a], B[b], C[c], D[d])
-    print(A[a] + B[b] + C[c] + D[d])
 
 print(cnt)

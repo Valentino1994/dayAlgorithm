@@ -32,4 +32,5 @@ for i in range(N):
         cd = -(C[i] + D[j])
         if cd in AB:
             result += AB[cd]
-print(AB)
+
+print(result)
