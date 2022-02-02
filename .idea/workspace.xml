@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c6d3e5-e260-4804-924f-34681e293d3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/31th/BOJ_1330_두수비교하기/s1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/31th/BOJ_1330_두수비교하기/s1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/31th/BOJ_7453_합이0인네정수/s3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/2nd/BOJ_21279_광부호석/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/2nd/BOJ_21279_광부호석/s1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/31th/BOJ_21279_광부호석/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/31th/BOJ_21279_광부호석/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/31th/BOJ_21279_광부호석/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/31th/BOJ_21279_광부호석/s1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/31th/BOJ_7453_합이0인네정수/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/31th/BOJ_7453_합이0인네정수/s1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/31th/BOJ_7453_합이0인네정수/s2.py" beforeDir="false" afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/31th/BOJ_7453_합이0인네정수/s2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/1st/PROG_LV1_신고결과받기/s2.js" beforeDir="false" afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/1st/PROG_LV1_신고결과받기/s2.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +134,7 @@
       <recent name="C:\Users\Geunil\PycharmProjects\algorithm\onedayAlgorithm\2021\12_December\4th\PROG_LV1_숫자문자열과영단어" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.s3">
+  <component name="RunManager" selected="Python.s1 (2)">
     <configuration name="s1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,7 +156,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="s1 (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="s1 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -168,11 +164,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/29th/BOJ_3273_두수의합" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/2nd/BOJ_21279_광부호석" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/29th/BOJ_3273_두수의합/s1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/2nd/BOJ_21279_광부호석/s1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -287,19 +283,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.s1 (4)" />
       <item itemvalue="Python.s1" />
       <item itemvalue="Python.s1 (1)" />
       <item itemvalue="Python.s2" />
       <item itemvalue="Python.s3" />
+      <item itemvalue="Python.s1 (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.s1 (2)" />
         <item itemvalue="Python.s3" />
         <item itemvalue="Python.s2" />
         <item itemvalue="Python.s1 (1)" />
         <item itemvalue="Python.s1" />
-        <item itemvalue="Python.s1 (4)" />
       </list>
     </recent_temporary>
   </component>

@@ -3,7 +3,6 @@ function solution(id_list, report, k) {
     answer.fill(0) 
     const report_list = {} //
     
-    
     id_list.map((user)=>{
         report_list[user] = [] //key로 userid를 value로 빈 배열을 가지는 객체
     })
@@ -14,7 +13,7 @@ function solution(id_list, report, k) {
             report_list[report_id].push(user_id)
         }        
     })
-    
+ 
     for(const key in report_list){
         if(report_list[key].length >= k){ //이용정지 유저
             report_list[key].map((user)=>{
@@ -22,6 +21,7 @@ function solution(id_list, report, k) {
             })
         }
     }
+    
     return answer;
 }
 
