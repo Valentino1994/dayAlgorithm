@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c6d3e5-e260-4804-924f-34681e293d3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/2nd/BOJ_21279_광부호석/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/2nd/BOJ_21279_광부호석/s1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/1st/PROG_LV1_신고결과받기/s2.js" beforeDir="false" afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/1st/PROG_LV1_신고결과받기/s2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/3rd/Revision/PROG_LV1_신고결과받기/r1.js" beforeDir="false" afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/3rd/Revision/PROG_LV1_신고결과받기/r1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
