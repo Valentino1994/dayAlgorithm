@@ -1,7 +1,7 @@
 function solution(id_list, report, k) {
     var answer = new Array(id_list.length);
     answer.fill(0);
-    report_info = {};
+    const report_info = {};
 
     for (const id of id_list) {
         report_info[id] = []

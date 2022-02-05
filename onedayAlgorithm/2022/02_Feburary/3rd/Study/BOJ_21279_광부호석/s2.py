@@ -1,6 +1,5 @@
 import sys
-from collections import defaultdict
-
+from itertools import product
 sys.stdin = open("input.txt", "r")
 # input = sys.stdin.readline
 
@@ -20,20 +19,9 @@ for t in tmp:
         else:
             D.append(t[i])
 
-AB = defaultdict(int)
-for i in range(N):
-    for j in range(N):
-        ab = A[i] + B[j]
-        AB[ab] += 1
-
-print(AB)
-
-result = 0
-for i in range(N):
-    for j in range(N):
-        cd = -(C[i] + D[j])
-        if cd in AB:
-            result += AB[cd]
-
-print(result)
-
+cnt = 0
+p_cnt = 0
+for p in product(range(N), repeat=4):
+    a, b, c, d = p[0], p[1], p[2], p[3]
+    if (A[a] + B[b] + C[c] + D[d]) == 0:
+        cnt += 1

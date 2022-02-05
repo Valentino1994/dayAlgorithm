@@ -7,7 +7,6 @@ stack = []
 number = ''
 for s in string:
     if not s.isnumeric():
-        stack.append(int(number))
         stack.append(s)
         number = ''
         continue

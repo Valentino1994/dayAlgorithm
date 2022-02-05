@@ -1,5 +1,5 @@
 import sys
-from itertools import permutations
+from itertools import product, permutations
 sys.stdin = open("input.txt", "r")
 # input = sys.stdin.readline
 
@@ -20,8 +20,9 @@ for t in tmp:
             D.append(t[i])
 
 cnt = 0
-for p in permutations(range(N), 4):
+for p in product(range(N), repeat=4):
     a, b, c, d = p[0], p[1], p[2], p[3]
+    print(a, b, c, d)
     if (A[a] + B[b] + C[c] + D[d]) == 0:
         cnt += 1
 
