@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c6d3e5-e260-4804-924f-34681e293d3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/8th/탐색/4-3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/8th/탐색/4-4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/8th/탐색/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +134,7 @@
       <recent name="C:\Users\Geunil\PycharmProjects\algorithm\onedayAlgorithm\2021\12_December\4th\PROG_LV1_숫자문자열과영단어" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.4-3">
+  <component name="RunManager" selected="Python.4-4">
     <configuration name="4-3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,6 +156,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="4-4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/8th/탐색" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/8th/탐색/4-4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="s1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,27 +190,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/7th/Study/BOJ_9251_LCS/s1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="s1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/7th/Study/BOJ_15724_주지수" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/7th/Study/BOJ_15724_주지수/s1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -282,19 +283,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.s1" />
       <item itemvalue="Python.s1 (1)" />
       <item itemvalue="Python.s3" />
       <item itemvalue="Python.s2" />
       <item itemvalue="Python.4-3" />
+      <item itemvalue="Python.4-4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.4-4" />
         <item itemvalue="Python.4-3" />
         <item itemvalue="Python.s2" />
         <item itemvalue="Python.s3" />
         <item itemvalue="Python.s1 (1)" />
-        <item itemvalue="Python.s1" />
       </list>
     </recent_temporary>
   </component>
