@@ -15,7 +15,6 @@ while True:
         d = 0
     else:
         d += 1
-
     n_r = r + movement[d][0]
     n_c = c + movement[d][1]
     # 왼쪽 방향에 0이면 한 칸 전진
