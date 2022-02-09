@@ -8,6 +8,7 @@ for _ in range(T):
     N = int(input())
     ranks = [list(map(int, input().split())) for _ in range(N)]
     ranks.sort()
+
     compare_target = ranks[0]
     for i in range(1, N):
         if (ranks[i][1] < compare_target[1]):
