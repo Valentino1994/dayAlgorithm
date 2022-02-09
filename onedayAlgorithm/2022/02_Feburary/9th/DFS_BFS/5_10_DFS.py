@@ -9,6 +9,7 @@ for i in range(n):
 def dfs(x, y):
     if x <= -1 or x >= n or y <= -1 or y >= m:
         return False
+    # 방문체크를 조져버린다.
     if graph[x][y] == 0:
         graph[x][y] = 1
         dfs(x - 1, y)
@@ -22,7 +23,7 @@ result = 0
 for i in range(n):
     for j in range(m):
         if dfs(i, j) == True:
-            print(i, j)
             result += 1
 
+print(graph)
 print(result)
