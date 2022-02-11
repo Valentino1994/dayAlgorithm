@@ -38,7 +38,6 @@ def enter(e, seats, seat):
     seats[answer] = e
     return
 
-
 N, T, P = map(int, input().split())
 people = []
 for t in range(T):
@@ -56,6 +55,7 @@ for t in range(T):
         people[t][1] = int(people[t][1][:2]) * 60 + int(people[t][1][2:])
         start_times[people[t][0]].append(t + 1)
         end_times[people[t][1]].append(t + 1)
+
 answer = 0
 seats = [0 for i in range(N + 1)]
 seat = [0 for i in range(T + 1)]

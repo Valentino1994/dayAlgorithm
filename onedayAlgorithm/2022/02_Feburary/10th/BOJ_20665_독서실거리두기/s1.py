@@ -11,7 +11,7 @@ for tmp_time in sorted(tmp_times):
     tmp = []
     for i in range(2):
         hour = int(tmp_time[i][0:2])
-        minute = int(tmp_time[i][2:5])
+        minute = int(tmp_time[i][2:4])
         tmp.append(hour * 60 + minute)
     times.append(tmp)
 
@@ -39,10 +39,10 @@ for time in times:
                 tmp = [0] * 3
         idx = N // 2 - 1 if N % 2 == 0 else N // 2
         tables[idx].append(time)
-
+# 같은 시간에 시작하면 더 짧은 시간인 사람이 먼저 앉는다.(sorted로 고려가 됨 그럼 뭐가 문제지)
+# P 자리에 사람이 앉아 있던 시간을 720분에서 뺀다.
 result = 720
 for t in tables[P-1]:
     result -= (t[1] - t[0])
 
 print(result)
-# P 자리에 사람이 앉아 있던 시간을 720분에서 뺀다.
