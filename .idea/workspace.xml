@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c6d3e5-e260-4804-924f-34681e293d3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/11th/BOJ_14501_퇴사/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/11th/BOJ_14501_퇴사/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/11th/BOJ_14501_퇴사/s2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/13th/BOJ_18353_병사배치하기/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/13th/BOJ_18353_병사배치하기/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/13th/BOJ_18353_병사배치하기/s2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,28 +135,7 @@
       <recent name="C:\Users\Geunil\PycharmProjects\algorithm\onedayAlgorithm\2021\12_December\4th\PROG_LV1_숫자문자열과영단어" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.s2">
-    <configuration name="s1 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/11th/Book_Q31_금광" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/11th/Book_Q31_금광/s1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.s2 (1)">
     <configuration name="s1 (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,6 +170,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/11th/BOJ_14501_퇴사/s1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="s1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/13th/BOJ_18353_병사배치하기" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/13th/BOJ_18353_병사배치하기/s1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -249,11 +249,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/10th/BOJ_20665_독서실거리두기" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/13th/BOJ_18353_병사배치하기" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/10th/BOJ_20665_독서실거리두기/s2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/13th/BOJ_18353_병사배치하기/s2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -284,19 +284,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.s2 (1)" />
-      <item itemvalue="Python.s1 (2)" />
       <item itemvalue="Python.s1 (3)" />
       <item itemvalue="Python.s1 (4)" />
       <item itemvalue="Python.s2" />
+      <item itemvalue="Python.s1" />
+      <item itemvalue="Python.s2 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.s2 (1)" />
+        <item itemvalue="Python.s1" />
         <item itemvalue="Python.s2" />
         <item itemvalue="Python.s1 (4)" />
         <item itemvalue="Python.s1 (3)" />
-        <item itemvalue="Python.s1 (2)" />
-        <item itemvalue="Python.s2 (1)" />
       </list>
     </recent_temporary>
   </component>
