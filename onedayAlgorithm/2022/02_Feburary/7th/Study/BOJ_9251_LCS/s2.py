@@ -15,4 +15,5 @@ for i, x in enumerate(X):
         elif x == y:
             DP[j] = cnt + 1
 
+print(DP)
 print(max(DP))
