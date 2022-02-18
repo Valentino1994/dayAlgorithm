@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c6d3e5-e260-4804-924f-34681e293d3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/18th/BOJ_10844_쉬운계단수/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/18th/BOJ_10844_쉬운계단수/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/오답노트/BOJ_20165_인내의도미노장인호석/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/오답노트/BOJ_20165_인내의도미노장인호석/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/오답노트/BOJ_20165_인내의도미노장인호석/s2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/오답노트/BOJ_21922_학부연구생민상/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/오답노트/BOJ_21922_학부연구생민상/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/오답노트/BOJ_21922_학부연구생민상/s2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/18th/BOJ_10844_쉬운계단수/s2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/7th/Study/BOJ_9251_LCS/s2.py" beforeDir="false" afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/7th/Study/BOJ_9251_LCS/s2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,28 +134,7 @@
       <recent name="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/6th" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.s1">
-    <configuration name="s1 (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/16th/BOJ_20165_인내의도미노장인호석" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/16th/BOJ_20165_인내의도미노장인호석/s1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.s2">
     <configuration name="s1 (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -248,6 +219,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="s2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/18th/BOJ_10844_쉬운계단수" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/18th/BOJ_10844_쉬운계단수/s2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="s3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -270,19 +262,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.s1 (3)" />
       <item itemvalue="Python.s1 (4)" />
       <item itemvalue="Python.s3" />
       <item itemvalue="Python.s2 (2)" />
       <item itemvalue="Python.s1" />
+      <item itemvalue="Python.s2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.s2" />
         <item itemvalue="Python.s1" />
         <item itemvalue="Python.s2 (2)" />
         <item itemvalue="Python.s3" />
         <item itemvalue="Python.s1 (4)" />
-        <item itemvalue="Python.s1 (3)" />
       </list>
     </recent_temporary>
   </component>
