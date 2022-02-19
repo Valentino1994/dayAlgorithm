@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c6d3e5-e260-4804-924f-34681e293d3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/18th/BOJ_10844_쉬운계단수/s2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/19th/Revision/BOJ_10844_쉬운계단수/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/19th/Revision/BOJ_10844_쉬운계단수/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/19th/Revision/BOJ_10844_쉬운계단수/s2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/오답노트/BOJ_10844_쉬운계단수/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/오답노트/BOJ_10844_쉬운계단수/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/오답노트/BOJ_10844_쉬운계단수/s2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,10 +123,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/onedayAlgorithm/오답노트" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/19th/Revision" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/19th/Revision" />
       <recent name="$PROJECT_DIR$/onedayAlgorithm/오답노트" />
       <recent name="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/6th/Revision" />
       <recent name="C:\Users\Geunil\PycharmProjects\algorithm\onedayAlgorithm" />
