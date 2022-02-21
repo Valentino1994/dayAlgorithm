@@ -18,7 +18,6 @@ visited = [False for _ in range(N+1)]
 que = deque([R])
 visited[R] = True
 graph[R][1].append(0)
-
 while que:
     v = que.popleft()
     for i in range(len(graph[v][0])):

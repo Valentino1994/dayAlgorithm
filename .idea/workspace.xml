@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c6d3e5-e260-4804-924f-34681e293d3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/20th/BOJ_15681_트리와쿼리/s2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/21st/BOJ_10844_쉬운계단수/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/21st/BOJ_10844_쉬운계단수/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/21st/BOJ_15681_트리와쿼리/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/21st/BOJ_15681_트리와쿼리/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/21st/BOJ_15681_트리와쿼리/s2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/오답노트/BOJ_15681_트리와쿼리/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/오답노트/BOJ_15681_트리와쿼리/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/오답노트/BOJ_15681_트리와쿼리/s2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/20th/BOJ_15681_트리와쿼리/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/20th/BOJ_15681_트리와쿼리/s1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,12 +126,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/19th/Revision" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/21st" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/19th/Revision" />
+      <recent name="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/21st" />
       <recent name="$PROJECT_DIR$/onedayAlgorithm/오답노트" />
+      <recent name="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/19th/Revision" />
       <recent name="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/6th/Revision" />
       <recent name="C:\Users\Geunil\PycharmProjects\algorithm\onedayAlgorithm" />
     </key>
@@ -135,7 +144,7 @@
       <recent name="$PROJECT_DIR$/onedayAlgorithm/2022/01_January/6th" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.s2 (1)">
+  <component name="RunManager" selected="Python.s2 (3)">
     <configuration name="s1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,7 +166,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="s1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="s1 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,11 +174,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/18th/BOJ_10844_쉬운계단수" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/21st/BOJ_15681_트리와쿼리" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/18th/BOJ_10844_쉬운계단수/s1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/21st/BOJ_15681_트리와쿼리/s1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,7 +229,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="s2 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="s2 (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -228,11 +237,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/7th/Study/BOJ_9251_LCS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/21st/BOJ_15681_트리와쿼리" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/7th/Study/BOJ_9251_LCS/s2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/21st/BOJ_15681_트리와쿼리/s2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -263,19 +272,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.s2 (2)" />
-      <item itemvalue="Python.s1" />
       <item itemvalue="Python.s2" />
       <item itemvalue="Python.s1 (1)" />
       <item itemvalue="Python.s2 (1)" />
+      <item itemvalue="Python.s2 (3)" />
+      <item itemvalue="Python.s1 (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.s2 (3)" />
+        <item itemvalue="Python.s1 (2)" />
         <item itemvalue="Python.s2 (1)" />
         <item itemvalue="Python.s1 (1)" />
         <item itemvalue="Python.s2" />
-        <item itemvalue="Python.s1" />
-        <item itemvalue="Python.s2 (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -485,8 +494,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/20th/BOJ_15681_트리와쿼리/s1.py</url>
-          <line>40</line>
+          <line>41</line>
           <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/21st/BOJ_15681_트리와쿼리/s2.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

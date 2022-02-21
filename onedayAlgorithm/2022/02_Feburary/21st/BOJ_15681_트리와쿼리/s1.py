@@ -1,6 +1,7 @@
 import sys
 sys.stdin = open("input.txt", "r")
 
+input = sys.stdin.readline
 from collections import deque
 
 N, R, Q = map(int, input().split())
