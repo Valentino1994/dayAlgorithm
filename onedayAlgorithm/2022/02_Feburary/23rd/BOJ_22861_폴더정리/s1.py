@@ -3,7 +3,7 @@ sys.stdin = open("input.txt", "r")
 
 N, M = map(int, input().split())
 
-folder = {"main": [[], []]}
+folder = {}
 
 for _ in range(N+M):
     P, F, C = input().split()
@@ -55,5 +55,3 @@ for _ in range(Q):
         for fold in folder[now_folder][0]:
             stack.append(fold)
     print(r1, len(r2))
-
-
