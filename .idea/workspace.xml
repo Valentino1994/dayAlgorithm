@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c6d3e5-e260-4804-924f-34681e293d3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/27th/BOJ_1967_트리의지름/s2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/28th/BOJ_1068_트리/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/28th/BOJ_1068_트리/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/28th/BOJ_1068_트리/s2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/28th/BOJ_1967_트리의지름/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/28th/BOJ_1967_트리의지름/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/28th/BOJ_1967_트리의지름/s2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/03_March/1st/BOJ_18808_스티커붙이기/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/03_March/1st/BOJ_18808_스티커붙이기/s1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/26th/BOJ_1068_트리/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/27th/BOJ_1068_트리/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/26th/BOJ_1068_트리/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/27th/BOJ_1068_트리/s1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/26th/BOJ_1068_트리/s2.py" beforeDir="false" afterPath="$PROJECT_DIR$/onedayAlgorithm/2022/02_Feburary/27th/BOJ_1068_트리/s2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
