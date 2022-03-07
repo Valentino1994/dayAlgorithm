@@ -4,8 +4,7 @@ def dfs(pos, min_v):
     ret = 0
     if pos + 1 < len(orders) and orders[pos] > orders[pos + 1]:
         ret += dfs(pos + 1, min(min_v, orders[pos]))
-    if pos + ret + 1 < len(orders) and orders[pos] < orders[pos + ret + 1] \
-        and orders[pos + ret + 1] < min_v:
+    if pos + ret + 1 < len(orders) and orders[pos] < orders[pos + ret + 1] and orders[pos + ret + 1] < min_v:
         ret += dfs(pos + ret + 1, min_v)
     print(orders[pos])
     return ret + 1

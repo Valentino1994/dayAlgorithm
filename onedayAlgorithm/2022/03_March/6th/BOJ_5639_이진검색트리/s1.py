@@ -37,3 +37,5 @@ def recursion(node):
         recursion(tree[node][2])
     print(tree[node][0])
 recursion(0)
+
+print(tree)

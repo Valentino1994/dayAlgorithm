@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9156a20a-5943-4ab0-b341-b26bd904d3ce" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/03_March/6th/BOJ_5639_이진검색트리/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2022/03_March/6th/BOJ_5639_이진검색트리/s1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/03_March/6th/BOJ_5639_이진검색트리/s2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2022/03_March/6th/BOJ_5639_이진검색트리/s2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/03_March/7th/BOJ_3584_가장가까운공통조상/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2022/03_March/7th/BOJ_3584_가장가까운공통조상/s1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +109,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.s3">
+  <component name="RunManager" selected="Python.s1">
     <configuration name="s1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="onedayAlgorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -221,11 +224,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.s1" />
+        <item itemvalue="Python.s1 (1)" />
+        <item itemvalue="Python.s2 (2)" />
         <item itemvalue="Python.s3" />
         <item itemvalue="Python.s2" />
-        <item itemvalue="Python.s1" />
-        <item itemvalue="Python.s2 (2)" />
-        <item itemvalue="Python.s1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -282,6 +285,11 @@
           <url>file://$PROJECT_DIR$/2022/03_March/6th/BOJ_5639_이진검색트리/s1.py</url>
           <line>38</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2022/03_March/6th/BOJ_5639_이진검색트리/s2.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
