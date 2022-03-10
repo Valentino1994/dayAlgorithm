@@ -12,7 +12,6 @@ commands = list(map(int, input().split()))
 direction = [(-1, 0), (1, 0), (0, -1), (0, 1)]
 def air_check(i, j):
     global mineral
-
     stack = [[i, j]]
     while stack:
         r, c = stack.pop()
@@ -31,11 +30,9 @@ def air_check(i, j):
             elif 0 <= n_r < R and 0 <= n_c < C:
                 if mine[n_r][n_c] == 'x' and visited[n_r][n_c] == 0:
                     stack.append([n_r, n_c])
-
     return True
 
 def falling_down(mineral):
-
     mineral.sort(key=lambda x: x[1], reverse=True)
     columns = []
     min_height = 987654321
@@ -50,7 +47,6 @@ def falling_down(mineral):
                 if 0 <= r < R and mine[r][c] == '.':
                     cnt += 1
                     continue
-
                 else:
                     if cnt < min_height:
                         min_height = cnt
