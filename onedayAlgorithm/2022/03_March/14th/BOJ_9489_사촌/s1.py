@@ -1,5 +1,6 @@
 import sys
 sys.stdin = open("input.txt", "r")
+from pprint import pprint
 
 def make_tree(infos):
     tree = [[-1, [], []] for _ in range(max(infos)+1)]
@@ -53,11 +54,21 @@ def make_tree(infos):
 
 def find_cousin(tree):
     result = 0
+    if not tree[k][1]:
+        return 0
     p = tree[k][1][0]
+    flag = False
+    if tree[p][1]:
+        g = tree[p][1][0]
+        flag = True
     layer = tree[k][0]
 
     for t in tree:
-        if t[0] == layer and t[1][0] != p:
+        if flag:
+            if t[0] == layer and t[1][0] != p and tree[t[1][0]][1][0] == g:
+                result += 1
+
+        elif t[0] == layer and t[1][0] != p:
             result += 1
 
     return result
@@ -67,5 +78,5 @@ while True:
     if n == 0 and k == 0:
         break
     infos = list(map(int, input().split()))
-
-    print(find_cousin(make_tree(infos)))
+    tree = make_tree(infos)
+    print(find_cousin(tree))
