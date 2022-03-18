@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9156a20a-5943-4ab0-b341-b26bd904d3ce" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/03_March/16th/BOJ_16939_2x2x2큐브/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2022/03_March/16th/BOJ_16939_2x2x2큐브/s1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -383,8 +384,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/2022/03_March/16th/BOJ_16939_2x2x2큐브/s1.py</url>
-          <line>105</line>
+          <line>107</line>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2022/03_March/17th/BOJ_15653_구슬탈출/s1.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

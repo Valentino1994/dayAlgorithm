@@ -94,9 +94,11 @@ def check(cube):
     cube_hu = cube[2]
     cube_hd = cube[3]
 
+
     for i in range(0, len(cube_vl), 2):
         if not (cube_vr[i] == cube_vr[i+1] == cube_vl[i] == cube_vl[i+1] and cube_hu[i] == cube_hu[i+1] == cube_hd[i] == cube_hd[i+1]):
             return 0
+    print(cube)
 
     return 1
 
