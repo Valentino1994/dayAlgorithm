@@ -31,4 +31,5 @@ def find_distance(root):
     return
 
 print(tree)
+print(leaf)
 
