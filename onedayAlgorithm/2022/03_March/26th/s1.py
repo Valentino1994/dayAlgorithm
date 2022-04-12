@@ -9,7 +9,7 @@ def solution(logs):
             continue
 
         # " : 를 기준으로 나누고, 다시 빈칸을 기준으로 나누면 형식을 파악할 수 있다."
-        # tmp = ['   team_name', 'db application_name', 'dbtest error_level', 'info message', 'test']
+        # tmp = ['   team_name', 'db  application_name', 'dbtest error_level', 'info message', 'test']
         # log_arr = ['', '', '', 'team_name', 'db', 'application_name', 'dbtest', 'error_level', 'info', 'message', 'test']
         tmp = log.split(" : ")
         log_arr = []

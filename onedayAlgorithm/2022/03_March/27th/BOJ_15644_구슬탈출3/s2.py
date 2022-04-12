@@ -7,12 +7,16 @@ dy = [0, 0, 1, -1]
 
 def bfs():
     cnt = 1
+
     while q:
         qlen = len(q)
+
         for _ in range(qlen):
             rx, ry, bx, by, d = q.popleft()
+
             for i in range(4):
                 nrx, nry, nbx, nby = rx, ry, bx, by
+
                 if i == 0:
                     nd = 'D'
                 elif i == 1:
@@ -21,6 +25,7 @@ def bfs():
                     nd = 'R'
                 else:
                     nd = 'L'
+
                 while True:
                     nrx += dx[i]
                     nry += dy[i]
@@ -61,9 +66,11 @@ def bfs():
                     q.append([nrx, nry, nbx, nby, d + nd])
 
         cnt += 1
+
         if cnt > 10:
             print(-1)
             return
+
     print(-1)
     return
 

@@ -22,6 +22,7 @@
 		2204E86127EB6835006AF1D8 /* SwiftAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		2204E86427EB6835006AF1D8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2204E86E27EB699E006AF1D8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		22ED32392804751B00E61916 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +65,7 @@
 		2204E86B27EB6906006AF1D8 /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				22ED3238280474FC00E61916 /* 2309_일곱난쟁이 */,
 				2204E86D27EB698E006AF1D8 /* 1 */,
 			);
 			path = BOJ;
@@ -82,6 +84,15 @@
 				2204E86E27EB699E006AF1D8 /* main.swift */,
 			);
 			path = 1;
+			sourceTree = "<group>";
+		};
+		22ED3238280474FC00E61916 /* 2309_일곱난쟁이 */ = {
+			isa = PBXGroup;
+			children = (
+				22ED32392804751B00E61916 /* main.swift */,
+			);
+			name = "2309_일곱난쟁이";
+			path = "2309_일곱난쟁이";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
