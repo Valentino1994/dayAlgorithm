@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9156a20a-5943-4ab0-b341-b26bd904d3ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../SwiftAlgorithm/SwiftAlgorithm/BOJ/1748_수이어쓰기1/main.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SwiftAlgorithm/SwiftAlgorithm.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../SwiftAlgorithm/SwiftAlgorithm.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SwiftAlgorithm/SwiftAlgorithm.xcodeproj/project.xcworkspace/xcuserdata/parkgeunil.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../SwiftAlgorithm/SwiftAlgorithm.xcodeproj/project.xcworkspace/xcuserdata/parkgeunil.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2022/03_March/26th/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2022/03_March/26th/s1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2022/03_March/27th/BOJ_15644_구슬탈출3/s1.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
