@@ -1,9 +1,3 @@
-//
-//  main.swift
-//  AlgorithmSwift
-//
-//  Created by Geunil Park on 2022/04/25.
-//
 
 import Foundation
 
@@ -14,8 +8,12 @@ func permute(_ nums: [Int], _ targetNum: Int) -> [[Int]] {
     
     func permutation(_ nowPermute: [Int]) {
         if nowPermute.count == targetNum {
-            result.append(nowPermute)
-            return
+            if nowPermute.sorted() == nowPermute {
+                result.append(nowPermute)
+                return
+            } else {
+                return
+            }
         }
         for i in 0..<nums.count {
             if visited[i] == true {
@@ -30,7 +28,7 @@ func permute(_ nums: [Int], _ targetNum: Int) -> [[Int]] {
     }
     permutation([])
     
-    return sorted_result
+    return result
 }
 
 var arr:Array = [1]
