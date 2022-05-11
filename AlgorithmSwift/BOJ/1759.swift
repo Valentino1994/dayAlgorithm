@@ -9,6 +9,7 @@ let C = LC[1]
 var result: [String] = []
 var visited = Array(repeating: false, count: C)
 var answer: [String] = []
+
 func dfs(depth: Int, start: Int) -> Void {
     
     var count: Int = 0
@@ -23,7 +24,6 @@ func dfs(depth: Int, start: Int) -> Void {
                 count += 1
             }
         }
-        
         if alpha && count >= 2 {
             print(result.joined())
         }
