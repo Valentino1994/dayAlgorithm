@@ -70,6 +70,7 @@ func solution2(_ info:[String], _ query:[String]) -> [Int] {
                 for career in careers {
                     for food in soulFoods {
                         let key = "\(lang) \(job) \(career) \(food)"
+                        // 여기 좀 꿀팁인듯
                         if db.keys.contains(key) {
                             db[key]?.append(score)
                         } else {
@@ -80,13 +81,13 @@ func solution2(_ info:[String], _ query:[String]) -> [Int] {
             }
         }
     }
-
+    print(db)
     // 딕셔너리 점수순 재정렬
     for origin in db {
         let sortValue = origin.value.sorted()
         db[origin.key] = sortValue
     }
-
+    print(db)
     // 쿼리를 키로 점수배열을 가져오고 점수배열을 이진탐색으로 효율적탐색 시도
     query.forEach {
         let excuteQuery = $0.components(separatedBy: .whitespaces)
@@ -120,11 +121,10 @@ func solution2(_ info:[String], _ query:[String]) -> [Int] {
         }
 
     }
-    // print(result)
     return result
 }
 
 var info: [String] = ["java backend junior pizza 150","python frontend senior chicken 210","python frontend senior chicken 150","cpp backend senior pizza 260","java backend junior chicken 80","python backend senior chicken 50"]
 var query: [String] = ["java and backend and junior and pizza 100","python and frontend and senior and chicken 200","cpp and - and senior and pizza 250","- and backend and senior and - 150","- and - and - and chicken 100","- and - and - and - 150"]
 
-print(solution(info, query))
+solution2(info, query)
