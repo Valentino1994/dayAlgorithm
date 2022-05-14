@@ -3,6 +3,31 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "dfs(node:):main.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "tree">
+            </PersistentString>
+            <PersistentString
+               value = "dfs_visited">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "main:main.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "bfs_stack">
+            </PersistentString>
+            <PersistentString
+               value = "bfs_visited">
+            </PersistentString>
+            <PersistentString
+               value = "tree">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "bfs(now:cnt:):main.swift">
          <PersistentStrings>
             <PersistentString

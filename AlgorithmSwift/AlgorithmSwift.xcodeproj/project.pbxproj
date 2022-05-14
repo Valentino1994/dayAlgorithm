@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22108802282CB14D0001EA13 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D4B0AB282BC64C0012647F /* main.swift */; };
+		22C927C9282F4CCC00E52C9B /* 10972_재귀문.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C927C8282F4CCC00E52C9B /* 10972_재귀문.swift */; };
+		22C927CB282F4FA000E52C9B /* 10972_반복문.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C927CA282F4FA000E52C9B /* 10972_반복문.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,11 +35,15 @@
 		22A8D3D528179222001B6294 /* 15651.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15651.swift; sourceTree = "<group>"; };
 		22A8D3D72818D138001B6294 /* 15652.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15652.swift; sourceTree = "<group>"; };
 		22A8D3D92818D60A001B6294 /* Lv1_Crane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lv1_Crane.swift; sourceTree = "<group>"; };
+		22C927C5282F414400E52C9B /* 1260.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1260.swift; sourceTree = "<group>"; };
+		22C927C7282F4CCB00E52C9B /* AlgorithmSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlgorithmSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		22C927C8282F4CCC00E52C9B /* 10972_재귀문.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "10972_재귀문.swift"; sourceTree = "<group>"; };
+		22C927CA282F4FA000E52C9B /* 10972_반복문.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "10972_반복문.swift"; sourceTree = "<group>"; };
 		22D4B0A32828FCF00012647F /* 1759.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1759.swift; sourceTree = "<group>"; };
 		22D4B0A52829E59E0012647F /* 1697_재귀.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1697_재귀.swift"; sourceTree = "<group>"; };
 		22D4B0A72829F1810012647F /* 1697_반복문.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1697_반복문.swift"; sourceTree = "<group>"; };
 		22D4B0A9282B40480012647F /* 1991.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1991.swift; sourceTree = "<group>"; };
-		22D4B0AB282BC64C0012647F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		22D4B0AB282BC64C0012647F /* Lv2_순위검색.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv2_순위검색.swift"; sourceTree = "<group>"; };
 		22E8E62728216B3E00FF66E0 /* Lv2_문자열압축.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv2_문자열압축.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +64,7 @@
 				22A8D3DB2818D61F001B6294 /* Programmars */,
 				22A8D3C32816356F001B6294 /* BOJ */,
 				22A8D3C22816356F001B6294 /* Products */,
+				22C927C7282F4CCB00E52C9B /* AlgorithmSwift-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +91,9 @@
 				22D4B0A52829E59E0012647F /* 1697_재귀.swift */,
 				22D4B0A72829F1810012647F /* 1697_반복문.swift */,
 				22D4B0A9282B40480012647F /* 1991.swift */,
+				22C927C5282F414400E52C9B /* 1260.swift */,
+				22C927C8282F4CCC00E52C9B /* 10972_재귀문.swift */,
+				22C927CA282F4FA000E52C9B /* 10972_반복문.swift */,
 			);
 			path = BOJ;
 			sourceTree = "<group>";
@@ -95,7 +104,7 @@
 				22A8D3D92818D60A001B6294 /* Lv1_Crane.swift */,
 				22E8E62728216B3E00FF66E0 /* Lv2_문자열압축.swift */,
 				220A2EA728278FE500FD346F /* Lv2_주차요금.swift */,
-				22D4B0AB282BC64C0012647F /* main.swift */,
+				22D4B0AB282BC64C0012647F /* Lv2_순위검색.swift */,
 			);
 			path = Programmars;
 			sourceTree = "<group>";
@@ -132,6 +141,7 @@
 				TargetAttributes = {
 					22A8D3C02816356F001B6294 = {
 						CreatedOnToolsVersion = 13.3;
+						LastSwiftMigration = 1330;
 					};
 				};
 			};
@@ -158,7 +168,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22108802282CB14D0001EA13 /* main.swift in Sources */,
+				22C927CB282F4FA000E52C9B /* 10972_반복문.swift in Sources */,
+				22C927C9282F4CCC00E52C9B /* 10972_재귀문.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,10 +292,18 @@
 		22A8D3C92816356F001B6294 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JASCMY8XL7;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AlgorithmSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -292,10 +311,17 @@
 		22A8D3CA2816356F001B6294 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JASCMY8XL7;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AlgorithmSwift-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
