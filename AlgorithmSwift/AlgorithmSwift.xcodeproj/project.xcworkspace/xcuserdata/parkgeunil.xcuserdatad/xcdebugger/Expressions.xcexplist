@@ -3,13 +3,27 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "findMaximum(index:profit:):main.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "table">
+            </PersistentString>
+            <PersistentString
+               value = "visited">
+            </PersistentString>
+            <PersistentString
+               value = "result">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "dfs(node:):main.swift">
          <PersistentStrings>
             <PersistentString
-               value = "tree">
+               value = "dfs_visited">
             </PersistentString>
             <PersistentString
-               value = "dfs_visited">
+               value = "tree">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
