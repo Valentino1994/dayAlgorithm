@@ -31,13 +31,7 @@
          contextName = "main:main.swift">
          <PersistentStrings>
             <PersistentString
-               value = "bfs_stack">
-            </PersistentString>
-            <PersistentString
-               value = "bfs_visited">
-            </PersistentString>
-            <PersistentString
-               value = "tree">
+               value = "mySet">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
