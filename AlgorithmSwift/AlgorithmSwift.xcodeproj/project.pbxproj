@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22C927D12831DD3E00E52C9B /* 11723_실패.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C927D02831DD3C00E52C9B /* 11723_실패.swift */; };
+		22C927D428332AEB00E52C9B /* 13023.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C927D328332AE500E52C9B /* 13023.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +42,7 @@
 		22C927CE2830BBF000E52C9B /* 14501_DP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14501_DP.swift; sourceTree = "<group>"; };
 		22C927D02831DD3C00E52C9B /* 11723_실패.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11723_실패.swift"; sourceTree = "<group>"; };
 		22C927D228332A7800E52C9B /* 11723.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11723.swift; sourceTree = "<group>"; };
+		22C927D328332AE500E52C9B /* 13023.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 13023.swift; sourceTree = "<group>"; };
 		22D4B0A32828FCF00012647F /* 1759.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1759.swift; sourceTree = "<group>"; };
 		22D4B0A52829E59E0012647F /* 1697_재귀.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1697_재귀.swift"; sourceTree = "<group>"; };
 		22D4B0A72829F1810012647F /* 1697_반복문.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1697_반복문.swift"; sourceTree = "<group>"; };
@@ -101,6 +102,7 @@
 				22C927CE2830BBF000E52C9B /* 14501_DP.swift */,
 				22C927D02831DD3C00E52C9B /* 11723_실패.swift */,
 				22C927D228332A7800E52C9B /* 11723.swift */,
+				22C927D328332AE500E52C9B /* 13023.swift */,
 			);
 			path = BOJ;
 			sourceTree = "<group>";
@@ -175,7 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22C927D12831DD3E00E52C9B /* 11723_실패.swift in Sources */,
+				22C927D428332AEB00E52C9B /* 13023.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
