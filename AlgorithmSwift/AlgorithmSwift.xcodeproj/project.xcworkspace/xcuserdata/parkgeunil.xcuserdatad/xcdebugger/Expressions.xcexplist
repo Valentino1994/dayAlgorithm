@@ -20,10 +20,10 @@
          contextName = "dfs(node:):main.swift">
          <PersistentStrings>
             <PersistentString
-               value = "dfs_visited">
+               value = "tree">
             </PersistentString>
             <PersistentString
-               value = "tree">
+               value = "visited">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -43,6 +43,9 @@
          <PersistentStrings>
             <PersistentString
                value = "mySet">
+            </PersistentString>
+            <PersistentString
+               value = "visited">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
