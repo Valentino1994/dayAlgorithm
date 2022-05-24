@@ -17,6 +17,17 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "bfs(node:):main.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "visited">
+            </PersistentString>
+            <PersistentString
+               value = "tree">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "dfs(node:):main.swift">
          <PersistentStrings>
             <PersistentString
@@ -46,6 +57,9 @@
             </PersistentString>
             <PersistentString
                value = "visited">
+            </PersistentString>
+            <PersistentString
+               value = "answer">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
