@@ -3,40 +3,18 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "findMaximum(index:profit:):main.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "table">
-            </PersistentString>
-            <PersistentString
-               value = "visited">
-            </PersistentString>
-            <PersistentString
-               value = "result">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "bfs(node:):main.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "visited">
-            </PersistentString>
-            <PersistentString
-               value = "tree">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
          contextName = "dfs(node:):main.swift">
          <PersistentStrings>
             <PersistentString
-               value = "tree">
-            </PersistentString>
-            <PersistentString
                value = "visited">
             </PersistentString>
+            <PersistentString
+               value = "tree">
+            </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "dfs #1 (now:node:) in :main.swift">
       </ContextState>
       <ContextState
          contextName = "dfs(node:depth:):main.swift">
@@ -46,6 +24,22 @@
             </PersistentString>
             <PersistentString
                value = "tree">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "dfs(now:node:):main.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "visited">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "bfs(now:cnt:):main.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "visited">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -64,10 +58,27 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "bfs(now:cnt:):main.swift">
+         contextName = "bfs(node:):main.swift">
          <PersistentStrings>
             <PersistentString
                value = "visited">
+            </PersistentString>
+            <PersistentString
+               value = "tree">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "findMaximum(index:profit:):main.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "table">
+            </PersistentString>
+            <PersistentString
+               value = "visited">
+            </PersistentString>
+            <PersistentString
+               value = "result">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
