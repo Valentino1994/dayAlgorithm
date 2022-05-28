@@ -6,6 +6,10 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		22EEFF992841A93C00DE3C7C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EEFF982841A93C00DE3C7C /* main.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		22A8D3BF2816356F001B6294 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -53,6 +57,7 @@
 		22EEFF55283DC0A100DE3C7C /* 1707.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1707.swift; sourceTree = "<group>"; };
 		22EEFF57283F0A0000DE3C7C /* 13913_시간초과.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "13913_시간초과.swift"; sourceTree = "<group>"; };
 		22EEFF59283F1AD600DE3C7C /* 13913_랭커.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "13913_랭커.swift"; sourceTree = "<group>"; };
+		22EEFF982841A93C00DE3C7C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +74,7 @@
 		22A8D3B82816356F001B6294 = {
 			isa = PBXGroup;
 			children = (
+				22EEFF962841A91E00DE3C7C /* Test */,
 				22A8D3DB2818D61F001B6294 /* Programmars */,
 				22A8D3C32816356F001B6294 /* BOJ */,
 				22A8D3C22816356F001B6294 /* Products */,
@@ -130,6 +136,22 @@
 			path = Programmars;
 			sourceTree = "<group>";
 		};
+		22EEFF962841A91E00DE3C7C /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				22EEFF972841A92900DE3C7C /* LineSummer */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		22EEFF972841A92900DE3C7C /* LineSummer */ = {
+			isa = PBXGroup;
+			children = (
+				22EEFF982841A93C00DE3C7C /* main.swift */,
+			);
+			path = LineSummer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -189,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22EEFF992841A93C00DE3C7C /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
