@@ -1,5 +1,8 @@
 def solution(n, times):
     answer = 0
+    if n == 1:
+        return answer
+
     DP = [0] * (n + 1)
     # when we start to cut, we should cut from a one line.
     DP[2] = times[0]
@@ -17,7 +20,7 @@ def solution(n, times):
 
     return answer
 
-n = 4
-times = [2, 3]
+n = 2
+times = [2]
 
 print(solution(n, times))
