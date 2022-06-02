@@ -20,7 +20,7 @@ def solution(n, times):
 
     return answer
 
-n = 2
-times = [2]
+n = 1
+times = [3]
 
 print(solution(n, times))
