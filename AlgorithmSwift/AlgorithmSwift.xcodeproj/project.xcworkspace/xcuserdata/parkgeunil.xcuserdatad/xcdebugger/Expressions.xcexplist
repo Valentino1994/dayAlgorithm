@@ -36,6 +36,14 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "makeCombination(index:):main.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "result">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "bfs(now:cnt:):main.swift">
          <PersistentStrings>
             <PersistentString
