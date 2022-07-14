@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9156a20a-5943-4ab0-b341-b26bd904d3ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../AlgorithmSwift/BOJ/main.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgorithmSwift/AlgorithmSwift.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgorithmSwift/AlgorithmSwift.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AlgorithmSwift/AlgorithmSwift.xcodeproj/project.xcworkspace/xcuserdata/parkgeunil.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgorithmSwift/AlgorithmSwift.xcodeproj/project.xcworkspace/xcuserdata/parkgeunil.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AlgorithmSwift/AlgorithmSwift.xcodeproj/xcuserdata/parkgeunil.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgorithmSwift/AlgorithmSwift.xcodeproj/xcuserdata/parkgeunil.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgorithmSwift/BOJ/1248.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgorithmSwift/Test/NIntern/main.swift" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/Test/devmatching/t3.py" beforeDir="false" afterPath="$PROJECT_DIR$/2022/Test/devmatching/t3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

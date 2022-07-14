@@ -1,62 +1,57 @@
-//
-//  main.swift
-//  AlgorithmSwift
-//
-//  Created by Geunil Park on 2022/06/27.
-//
-
 import Foundation
 
-let t = readLine()!.split(separator: " ").map{Int(String($0))!}
-let (n,m) = (t[0],t[1])
+guard let testCase = readLine(), let testCase = Int(testCase) else { fatalError() }
 
-var arr = [[Int]]()
-
-for _ in 0..<n {
-    arr.append(Array(readLine()!).map{Int(String($0))!})
+for _ in 0..<testCase {
+    let MNK = readLine()!.split(separator: " ").map { Int(String($0))! }
+    let farm: [[Int]] = makeFarm(M: MNK[0], N: MNK[1], K: MNK[2])
+    let answer = bfs(farm: farm)
+    
+    print(answer)
+}
+    
+func makeFarm(M: Int, N: Int, K: Int) -> [[Int]] {
+    var farm: [[Int]] = Array(repeating: Array(repeating: 0, count: N), count: M)
+    for _ in 0..<K {
+        let cabbage: [Int] = readLine()!.split(separator: " ").map { Int(String($0))! }
+        farm[cabbage[0]][cabbage[1]] = 1
+    }
+    return farm
 }
 
-var ans = 0
-
-func dfs() {
-    //모든 경우의 수는 2^(n*m)
-    for i in 0..<(1 << (n*m)) {
-        //i는 0 ~ 1111....1111
-        var total = 0
-        for row in 0..<n {
-            //한 조각의 합
-            var rowSum = 0
-            for col in 0..<m {
-                let idx = row * m + col
-                if i & (1 << idx) != 0 {
-                    //해당부분이 1 이라면 (가로) rowSum 조각에 편입하고 계산
-                    rowSum = rowSum * 10 + arr[row][col]
-                } else {
-                    //해당부분이 0 이라면 (세로) rowSum 초기화
-                    total += rowSum
-                    rowSum = 0
+func bfs(farm: [[Int]]) -> Int {
+    
+    var farm: [[Int]] = farm
+    var count: Int = 0
+    
+    // 시계 방향
+    let dr: [Int] = [-1, 0, 1, 0]
+    let dc: [Int] = [0, 1, 0, -1]
+    
+    for i in 0..<farm.count {
+        for j in 0..<farm[0].count {
+            if farm[i][j] == 1 {
+                var queue: [[Int]] = [[i, j]]
+                
+                while !queue.isEmpty {
+                    let now: [Int] = queue.removeFirst()
+                    
+                    let nr = now[0]
+                    let nc = now[1]
+                    
+                    for k in 0..<4 {
+                        if 0..<farm.count ~= nr + dr[k] && 0..<farm[0].count ~= nc + dc[k] {
+                            if farm[nr + dr[k]][nc + dc[k]] == 1 {
+                                queue.append([nr + dr[k], nc + dc[k]])
+                                farm[nr + dr[k]][nc + dc[k]] = 0
+                            }
+                        }
+                    }
                 }
+                count += 1
             }
-            total += rowSum
         }
-        
-        for col in 0..<m {
-            var colSum = 0
-            for row in 0..<n {
-                let idx = row * m + col
-                if i & (1 << idx) == 0 {
-                    colSum = colSum * 10 + arr[row][col]
-                } else {
-                    total += colSum
-                    colSum = 0
-                }
-            }
-            total += colSum
-        }
-        ans = max(ans, total)
     }
     
+    return count
 }
-
-dfs()
-print(ans)

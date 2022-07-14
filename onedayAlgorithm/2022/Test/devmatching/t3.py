@@ -115,3 +115,67 @@ columns = 6
 lands = [[2, 2], [2, 3], [2, 4], [3, 2], [3, 5], [4, 3], [4, 4]]
 
 print(solution(rows, columns, lands))
+
+# count1 = 1
+# import sys
+#
+# sys.setrecursionlimit(10 ** 6)
+
+# def dfs(x, y, m, n, graph):
+#     if x <= -1 or x >= m or y <= -1 or y >= n:
+#         return False
+#     if graph[x][y] == 0:
+#         graph[x][y] = 100
+#         dfs(x - 1, y, m, n, graph)
+#         dfs(x, y - 1, m, n, graph)
+#         dfs(x + 1, y, m, n, graph)
+#         dfs(x, y + 1, m, n, graph)
+#         return True
+#     return False
+#
+#
+# def dfs2(x, y, m, n, graph):
+#     global count1
+#
+#     if x <= -1 or x >= m or y <= -1 or y >= n:
+#         return False
+#     if graph[x][y] == 0:
+#         graph[x][y] = count1
+#         count1 += 1
+#         dfs2(x - 1, y, m, n, graph)
+#         dfs2(x, y - 1, m, n, graph)
+#         dfs2(x + 1, y, m, n, graph)
+#         dfs2(x, y + 1, m, n, graph)
+#         return True
+#     return False
+#
+#
+# def solution(rows, columns, lands):
+#     global count1
+#     answer = []
+#     tmp_list = []
+#     map = [[0] * columns for _ in range(rows)]
+#     for i in lands:
+#         map[i[0] - 1][i[1] - 1] = 100
+#     dfs(0, 0, rows, columns, map)
+#
+#     for i2 in range(rows):
+#         for j2 in range(columns):
+#             count1 = 1
+#             dfs2(i2, j2, rows, columns, map)
+#             if count1 != 1:
+#                 tmp_list.append(count1 - 1)
+#     if len(tmp_list) != 0:
+#         answer.append(min(tmp_list))
+#         answer.append(max(tmp_list))
+#     else:
+#         return [-1, -1]
+#
+#     return answer
+
+
+rows = 7
+columns = 7
+lands = [[2, 2], [2, 3], [2, 4], [2, 5], [2, 6], [3, 2], [4, 2], [6, 2], [6, 3], [6, 4], [6, 5], [5, 2], [6, 6], [3, 6],
+         [4, 6], [5, 6], [4, 4]]
+solution(rows, columns, lands)
