@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		224AAF35288108960053E66A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224AAF34288108940053E66A /* main.swift */; };
+		22E5BA1D289767F900438F21 /* Lv1_숫자문자열과영단어.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E5BA1C289767F700438F21 /* Lv1_숫자문자열과영단어.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +26,8 @@
 		220A2EA728278FE500FD346F /* Lv2_주차요금.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv2_주차요금.swift"; sourceTree = "<group>"; };
 		221CC277284458EE009F4851 /* 2667.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2667.swift; sourceTree = "<group>"; };
 		2222DBCC28694D8F00C1E24F /* 1012.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1012.swift; sourceTree = "<group>"; };
-		224AAF34288108940053E66A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		224AAF34288108940053E66A /* 1679.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1679.swift; sourceTree = "<group>"; };
+		2288477128936F3100C4B210 /* Lv1_신고결과받기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv1_신고결과받기.swift"; sourceTree = "<group>"; };
 		229696E4281F6EE500CB91AA /* 15654.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15654.swift; sourceTree = "<group>"; };
 		22A8D3C12816356F001B6294 /* AlgorithmSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A8D3C42816356F001B6294 /* 9095.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9095.swift; sourceTree = "<group>"; };
@@ -56,6 +57,7 @@
 		22D4B0A72829F1810012647F /* 1697_반복문.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1697_반복문.swift"; sourceTree = "<group>"; };
 		22D4B0A9282B40480012647F /* 1991.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1991.swift; sourceTree = "<group>"; };
 		22D4B0AB282BC64C0012647F /* Lv2_순위검색.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv2_순위검색.swift"; sourceTree = "<group>"; };
+		22E5BA1C289767F700438F21 /* Lv1_숫자문자열과영단어.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv1_숫자문자열과영단어.swift"; sourceTree = "<group>"; };
 		22E8E62728216B3E00FF66E0 /* Lv2_문자열압축.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv2_문자열압축.swift"; sourceTree = "<group>"; };
 		22E9001A2848602C000A82BE /* 14226.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14226.swift; sourceTree = "<group>"; };
 		22EEFF55283DC0A100DE3C7C /* 1707.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1707.swift; sourceTree = "<group>"; };
@@ -126,7 +128,7 @@
 				221CC277284458EE009F4851 /* 2667.swift */,
 				22E9001A2848602C000A82BE /* 14226.swift */,
 				2222DBCC28694D8F00C1E24F /* 1012.swift */,
-				224AAF34288108940053E66A /* main.swift */,
+				224AAF34288108940053E66A /* 1679.swift */,
 			);
 			path = BOJ;
 			sourceTree = "<group>";
@@ -138,6 +140,8 @@
 				22E8E62728216B3E00FF66E0 /* Lv2_문자열압축.swift */,
 				220A2EA728278FE500FD346F /* Lv2_주차요금.swift */,
 				22D4B0AB282BC64C0012647F /* Lv2_순위검색.swift */,
+				2288477128936F3100C4B210 /* Lv1_신고결과받기.swift */,
+				22E5BA1C289767F700438F21 /* Lv1_숫자문자열과영단어.swift */,
 			);
 			path = Programmars;
 			sourceTree = "<group>";
@@ -201,7 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				224AAF35288108960053E66A /* main.swift in Sources */,
+				22E5BA1D289767F900438F21 /* Lv1_숫자문자열과영단어.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
