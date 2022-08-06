@@ -20,4 +20,3 @@ func solution(_ s:String) -> Int {
 
 let s = "one4seveneight"
 print(solution(s))
-
