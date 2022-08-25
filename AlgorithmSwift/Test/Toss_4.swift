@@ -31,4 +31,4 @@ func calculateTime(_ time: String) -> String {
 
 let plans = ["01:00 02:00", "00:00 01:30", "01:30 02:00", "02:00 03:30", "02:30 03:00", "00:30 01:00", "01:00 01:30", "04:30 05:00"]
 
-solution(plans)
+//solution(plans)

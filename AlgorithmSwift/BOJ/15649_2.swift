@@ -12,7 +12,7 @@ func input() {
     M = input[1]
     used = Array(repeating: false, count: N + 1)
 }
-ad
+
 func recursionFunc(currentSelected: String, currentLength: Int) {
     if currentLength == M {
         output += currentSelected + "\n"
