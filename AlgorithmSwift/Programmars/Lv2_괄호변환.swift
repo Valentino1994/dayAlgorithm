@@ -50,7 +50,7 @@ func isCorrect(_ p: String) -> Bool {
                 // 첫번째인데 닫는 괄호면 무조건 끝남
         if index == 0 && item == ")" {
             return false
-        }
+        } 
                 
         count += item == "(" ? 1 : -1
     }
