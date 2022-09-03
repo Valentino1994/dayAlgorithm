@@ -16,7 +16,7 @@ extension String {
         let v = self.suffix(from: pivot)
 
         return [String(u), String(v)]
-    }
+    } 
 }
 
 func divide(_ p: String) -> [String] {
