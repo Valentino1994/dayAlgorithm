@@ -45,8 +45,7 @@ def solution(R):
 R = ["...X..", "....XX", "..X..."]
 R1 = ["....X..", "X......", ".....X.", "......."]
 R2 = ["...X.", ".X..X", "X...X", "..X.."]
-# solution(R)
-# solution(R1)
+
 print(solution(R))
 print(solution(R1))
 print(solution(R2))
