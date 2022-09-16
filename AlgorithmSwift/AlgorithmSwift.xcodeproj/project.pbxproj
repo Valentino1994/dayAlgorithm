@@ -6,10 +6,6 @@
 	objectVersion = 55;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		2219F3C128D31828000EBF22 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2219F3C028D31828000EBF22 /* main.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		22A8D3BF2816356F001B6294 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -27,6 +23,8 @@
 		221572C928BC4E7600CA4568 /* Lv2_후보키.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv2_후보키.swift"; sourceTree = "<group>"; };
 		221572CC28BC5E1A00CA4568 /* Lv2_후보키.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv2_후보키.swift"; sourceTree = "<group>"; };
 		2219F3C028D31828000EBF22 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2219F3E728D4BD31000EBF22 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2219F3E928D4C0FB000EBF22 /* ranker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ranker.swift; sourceTree = "<group>"; };
 		221BA30C28BDA0780060F03B /* 19238_랭커.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "19238_랭커.swift"; sourceTree = "<group>"; };
 		221BA32D28BEF6CD0060F03B /* 1931.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1931.swift; sourceTree = "<group>"; };
 		221BA32F28C0913B0060F03B /* Lv2_괄호변환.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv2_괄호변환.swift"; sourceTree = "<group>"; };
@@ -108,6 +106,16 @@
 			path = "1654_랜선자르기";
 			sourceTree = "<group>";
 		};
+		2219F3E628D4BD24000EBF22 /* 1946_신입사원 */ = {
+			isa = PBXGroup;
+			children = (
+				2219F3E728D4BD31000EBF22 /* main.swift */,
+				2219F3E928D4C0FB000EBF22 /* ranker.swift */,
+			);
+			name = "1946_신입사원";
+			path = "1946_신입사원";
+			sourceTree = "<group>";
+		};
 		2228EAC4289E27F400EE46DE /* Test */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +150,7 @@
 		22A8D3C32816356F001B6294 /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				2219F3E628D4BD24000EBF22 /* 1946_신입사원 */,
 				2219F3BF28D31811000EBF22 /* 1654_랜선자르기 */,
 				22A8D3C42816356F001B6294 /* 9095.swift */,
 				22A8D3CB28163C60001B6294 /* 15649_1.swift */,
@@ -269,7 +278,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2219F3C128D31828000EBF22 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
