@@ -15,13 +15,14 @@ for _ in 0..<T {
     
     var list: [[Int]] = []
     
-//    for _ in 0..<N {
-//        list.append(contentsOf: readLine()!.split(separator: " ").map{ Int(String($0))! })
-//    }
-    
-    (0..<N).forEach { _ in
-        list.append(readLine()!.split(separator: " ").map{ Int(String($0))! })
+    // insert는 또 되네...
+    for _ in 0..<N {
+        list.insert(readLine()!.split(separator: " ").map{ Int(String($0))! }, at: list.endIndex)
     }
+    
+//    (0..<N).forEach { _ in
+//        list.append(readLine()!.split(separator: " ").map{ Int(String($0))! })
+//    }
     
     let sortedList: [[Int]] = list.sorted(by: { $0[0] < $1[0] })
     
