@@ -19,7 +19,6 @@ var result = ""
 
 for i in 0..<N {
     var visited = Array(repeating: 0, count: N)
-    
     var stack = [Int]()
     
     for j in 0..<graph[i].count {
@@ -29,10 +28,10 @@ for i in 0..<N {
     }
     
     while !stack.isEmpty {
-        var node = stack.removeFirst()
-        if visited[node] == 0 {
-            visited[node] = 1
-            for k in 0..<graph[node].count {
+        let node = stack.removeFirst()
+        visited[node] = 1
+        for k in 0..<graph[node].count {
+            if graph[node][k] == 1 && visited[k] == 0 {
                 stack.append(k)
             }
         }
@@ -44,6 +43,4 @@ for i in 0..<N {
 
 result.removeLast()
 
-print(N)
-print(graph)
 print(result)
