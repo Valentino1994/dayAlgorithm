@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9156a20a-5943-4ab0-b341-b26bd904d3ce" name="Default Changelist" comment="" />
+    <list default="true" id="9156a20a-5943-4ab0-b341-b26bd904d3ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../AlgorithmSwift/Programmars/Lv3_등산경로/main.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlgorithmSwift/Programmars/Lv3_등산경로/ranker.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlgorithmSwift/AlgorithmSwift.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgorithmSwift/AlgorithmSwift.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlgorithmSwift/AlgorithmSwift.xcodeproj/project.xcworkspace/xcuserdata/parkgeunil.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgorithmSwift/AlgorithmSwift.xcodeproj/project.xcworkspace/xcuserdata/parkgeunil.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlgorithmSwift/AlgorithmSwift.xcodeproj/xcuserdata/parkgeunil.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgorithmSwift/AlgorithmSwift.xcodeproj/xcuserdata/parkgeunil.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
