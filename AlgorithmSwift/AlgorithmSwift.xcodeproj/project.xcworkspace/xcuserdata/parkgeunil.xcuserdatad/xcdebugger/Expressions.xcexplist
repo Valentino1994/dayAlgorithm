@@ -57,6 +57,15 @@
             <PersistentString
                value = "visited">
             </PersistentString>
+            <PersistentString
+               value = "snake">
+            </PersistentString>
+            <PersistentString
+               value = "answer">
+            </PersistentString>
+            <PersistentString
+               value = "nowDirection">
+            </PersistentString>
          </PersistentStrings>
       </ContextState>
       <ContextState
