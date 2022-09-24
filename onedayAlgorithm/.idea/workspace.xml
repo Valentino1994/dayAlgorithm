@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9156a20a-5943-4ab0-b341-b26bd904d3ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../AlgorithmSwift/Test/Line/Test1/main.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AlgorithmSwift/Test/Line/Test2/main.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AlgorithmSwift/Test/Line/Test3/main.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AlgorithmSwift/Test/Line/Test4/main.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AlgorithmSwift/Test/Line/Test5/main.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgorithmSwift/AlgorithmSwift.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgorithmSwift/AlgorithmSwift.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AlgorithmSwift/AlgorithmSwift.xcodeproj/project.xcworkspace/xcuserdata/parkgeunil.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgorithmSwift/AlgorithmSwift.xcodeproj/project.xcworkspace/xcuserdata/parkgeunil.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/Test/Line/t1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2022/Test/Line/t1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/Test/Line/t5.py" beforeDir="false" afterPath="$PROJECT_DIR$/2022/Test/Line/t5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +127,7 @@
       <recent name="$PROJECT_DIR$/2022/03_March/12th/BOJ_9489_사촌" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.t4 (1)">
+  <component name="RunManager" selected="Python.t2">
     <configuration name="hi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="onedayAlgorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -216,7 +212,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="t3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="t1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="onedayAlgorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -224,11 +220,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022/Test/devmatching" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022/Test/kakao" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022/Test/devmatching/t3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022/Test/kakao/t1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="t2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="onedayAlgorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022/Test/kakao" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022/Test/kakao/t2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -250,27 +267,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022/Test/Line/t4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="t4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="onedayAlgorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022/Test/NaverInternship" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022/Test/NaverInternship/t4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -302,19 +298,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.s1" />
-      <item itemvalue="Python.t4" />
-      <item itemvalue="Python.t3" />
       <item itemvalue="Python.hi" />
       <item itemvalue="Python.t5" />
       <item itemvalue="Python.t4 (1)" />
+      <item itemvalue="Python.t1" />
+      <item itemvalue="Python.t2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.t2" />
+        <item itemvalue="Python.t1" />
         <item itemvalue="Python.t4 (1)" />
         <item itemvalue="Python.t5" />
         <item itemvalue="Python.hi" />
-        <item itemvalue="Python.t4" />
-        <item itemvalue="Python.t3" />
       </list>
     </recent_temporary>
   </component>
@@ -454,14 +450,14 @@
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/2022/Test/Line/t5.py</url>
-          <line>40</line>
-          <option name="timeStamp" value="35" />
+          <url>file://$PROJECT_DIR$/2022/Test/Line/t4.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/2022/Test/Line/t4.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="37" />
+          <url>file://$PROJECT_DIR$/2022/Test/kakao/t2.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
