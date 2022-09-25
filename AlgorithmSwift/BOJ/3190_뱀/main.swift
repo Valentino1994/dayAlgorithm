@@ -38,7 +38,6 @@ let direction = [(-1, 0), (0, 1), (1, 0), (0, -1)]
 var snake = [[0, 0]]
 
 while true {
-    answer += 1
     
     if snakeCommandSeconds.contains(answer) {
         nowDirection = changeDirection(now: nowDirection, command: snakeCommandDirections[commandIndex])
@@ -51,6 +50,7 @@ while true {
     
     // 벽 체크, 뱀인지 체크
     if !(0..<N).contains(newR) || !(0..<N).contains(newC) || snake.contains([newR, newC]) {
+        answer += 1
         break
     }
     
@@ -61,13 +61,14 @@ while true {
     if board[newR][newC] == 9 {
         board[newR][newC] = 0
         // 사과면 추가된 채로 넘어감
-        continue
     } else {
         // 사과가 아니면 꼬리를 잘라줌
         let temp = snake[snake.count-1]
         board[temp[0]][temp[1]] = 0
         snake.removeLast()
     }
+    
+    answer += 1
 }
 
 func changeDirection(now: Int, command: String) -> Int {
@@ -76,25 +77,22 @@ func changeDirection(now: Int, command: String) -> Int {
     
     // D는 오른쪽
     if command == "D" {
-        if result < 3 && result > 0{
-            result += 1
-        } else {
+        if result == 3{
             result = 0
+        } else {
+            result += 1
         }
     } else {
-        if result < 4 {
-            result -= 1
+        if result == 0 {
+            result = 3
         } else {
-            result = 0
+            result -= 1
         }
     }
     commandIndex += 1
     return result
 }
 
-print(board)
-print(snakeCommandSeconds)
-print(snakeCommandDirections)
 print(answer)
 
 

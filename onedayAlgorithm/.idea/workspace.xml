@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9156a20a-5943-4ab0-b341-b26bd904d3ce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../AlgorithmSwift/AlgorithmSwift.xcodeproj/project.xcworkspace/xcuserdata/parkgeunil.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgorithmSwift/AlgorithmSwift.xcodeproj/project.xcworkspace/xcuserdata/parkgeunil.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2022/Test/Line/t1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2022/Test/Line/t1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2022/Test/Line/t5.py" beforeDir="false" afterPath="$PROJECT_DIR$/2022/Test/Line/t5.py" afterDir="false" />
-    </list>
+    <list default="true" id="9156a20a-5943-4ab0-b341-b26bd904d3ce" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
