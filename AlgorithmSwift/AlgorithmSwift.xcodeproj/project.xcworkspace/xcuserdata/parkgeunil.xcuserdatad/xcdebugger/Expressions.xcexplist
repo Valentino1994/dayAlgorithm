@@ -69,6 +69,14 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "dfs(nowPath:path:):main.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "visited">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "bfs(node:):main.swift">
          <PersistentStrings>
             <PersistentString
