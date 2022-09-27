@@ -20,13 +20,13 @@ func bfs() -> Int {
     var queue = [(Int, Int, Int)]() // x, y, 벽 부쉈는지
     queue.append((0, 0, 0))
     visit[0][0][0] = 1 // 0, 0, 0(벽 안부숴도 됨)
+    var queueIndex = 0
     
-    while(!queue.isEmpty) {
-        let x = queue.first!.0
-        let y = queue.first!.1
-        let isBreak = queue.first!.2
+    while queueIndex < queue.count {
+        let x = queue[queueIndex].0
+        let y = queue[queueIndex].1
+        let isBreak = queue[queueIndex].2
         
-        queue.removeFirst()
         if(x == n-1 && y == m-1) { return visit[x][y][isBreak] }
         for i in 0..<4 {
             let nx = dx[i] + x
@@ -43,9 +43,10 @@ func bfs() -> Int {
                 queue.append((nx, ny, 1)) // 부술 기회 사용
             }
             
-            
         }
         
+        queueIndex += 1
+
     }
     return -1
 }
