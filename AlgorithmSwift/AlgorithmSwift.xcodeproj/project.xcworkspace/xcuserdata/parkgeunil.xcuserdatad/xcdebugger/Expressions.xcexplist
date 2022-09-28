@@ -66,6 +66,9 @@
             <PersistentString
                value = "nowDirection">
             </PersistentString>
+            <PersistentString
+               value = "streets">
+            </PersistentString>
          </PersistentStrings>
       </ContextState>
       <ContextState
