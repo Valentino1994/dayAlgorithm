@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		222899A528EB0AEE0038D6F8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222899A428EB0AEE0038D6F8 /* main.swift */; };
+		222899A828EBD8AA0038D6F8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222899A728EBD8AA0038D6F8 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +42,7 @@
 		2228996D28E7CEF90038D6F8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2228996F28E7DD460038D6F8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		222899A428EB0AEE0038D6F8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		222899A728EBD8AA0038D6F8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2228EAC2289E274600EE46DE /* Toss_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toss_1.swift; sourceTree = "<group>"; };
 		2230FFB428E4079000F41EE0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2230FFB728E41FE700F41EE0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -145,6 +146,7 @@
 		2219F3EC28D6FD1E000EBF22 /* Theory */ = {
 			isa = PBXGroup;
 			children = (
+				222899A628EBD8A20038D6F8 /* Heap */,
 			);
 			path = Theory;
 			sourceTree = "<group>";
@@ -207,6 +209,14 @@
 			);
 			name = "5014_스타트링크";
 			path = "5014_스타트링크";
+			sourceTree = "<group>";
+		};
+		222899A628EBD8A20038D6F8 /* Heap */ = {
+			isa = PBXGroup;
+			children = (
+				222899A728EBD8AA0038D6F8 /* main.swift */,
+			);
+			path = Heap;
 			sourceTree = "<group>";
 		};
 		2228EAC4289E27F400EE46DE /* Test */ = {
@@ -521,7 +531,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				222899A528EB0AEE0038D6F8 /* main.swift in Sources */,
+				222899A828EBD8AA0038D6F8 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

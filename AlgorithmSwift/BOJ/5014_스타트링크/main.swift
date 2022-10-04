@@ -35,8 +35,4 @@ while stackIndex < stack.count {
     stackIndex += 1
 }
 
-if visited[G] == -1 {
-    print("use the stairs")
-} else {
-    print(visited[G])
-}
+print(visited[G] == -1 ? "use the stairs" : "\(visited[G])")
