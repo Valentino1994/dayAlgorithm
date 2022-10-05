@@ -7,9 +7,8 @@
 
 import Foundation
 
-var arr = [8, 4, 12, 3, 1, 22]
 
-func makeMinHeap(arr: [Int]) -> [Int]{
+func makeMinHeap(arr: [Int]) {
     
     var arr = arr
     
@@ -32,7 +31,68 @@ func makeMinHeap(arr: [Int]) -> [Int]{
         }
     }
     
-    return arr
+    globalArr = arr
 }
 
-print(makeMinHeap(arr: arr))
+func deleteElement(arr: [Int]?) -> Int {
+
+    guard var arr = arr else { return 0 }
+    
+    if arr.isEmpty {
+        return 0
+    }
+    
+    let result = arr[0]
+    arr[0] = arr[arr.count - 1]
+    arr.removeLast()
+    
+    for i in (0..<arr.count) {
+        
+        var parentIndex = i
+        
+        while parentIndex < arr.count {
+            let leftIndex = 2 * parentIndex + 1
+            let rightIndex = 2 * parentIndex + 2
+            
+            if (0..<arr.count).contains(leftIndex) && arr[parentIndex] > arr[leftIndex] {
+                let temp = arr[parentIndex]
+                arr[parentIndex] = arr[leftIndex]
+                arr[leftIndex] = temp
+                
+                if arr[parentIndex] > arr[rightIndex] {
+                    let temp = arr[parentIndex]
+                    arr[parentIndex] = arr[rightIndex]
+                    arr[rightIndex] = temp
+                }
+                
+                parentIndex = leftIndex
+                continue
+            }
+            
+            else if (0..<arr.count).contains(rightIndex) && arr[parentIndex] > arr[rightIndex] {
+                let temp = arr[parentIndex]
+                arr[parentIndex] = arr[rightIndex]
+                arr[rightIndex] = temp
+                
+                parentIndex = rightIndex
+                continue
+            }
+            
+            // 바뀌지 않았으면 바로 다음으로 넘어간다.
+            break
+        }
+    }
+    
+    globalArr = arr
+    return result
+}
+
+var globalArr = [8, 4, 12, 3, 1, 22]
+var globalArr1 = [Int]()
+print(globalArr)
+makeMinHeap(arr: globalArr)
+print(globalArr)
+print(deleteElement(arr: globalArr))
+print(deleteElement(arr: globalArr1))
+print(globalArr)
+

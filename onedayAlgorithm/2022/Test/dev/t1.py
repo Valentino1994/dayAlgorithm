@@ -1,5 +1,6 @@
 import re
 
+# 딕셔너리로 했으면 풀렸다.
 def solution(registered_list, new_id):
     answer = ''
     characters = re.findall('[a-z]+', new_id)
