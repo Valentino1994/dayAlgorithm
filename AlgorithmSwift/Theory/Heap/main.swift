@@ -34,9 +34,9 @@ func makeMinHeap(arr: [Int]) {
     globalArr = arr
 }
 
-func deleteElement(arr: [Int]?) -> Int {
+func pop(arr: [Int]) -> Int {
 
-    guard var arr = arr else { return 0 }
+    var arr = arr
     
     if arr.isEmpty {
         return 0
@@ -87,12 +87,24 @@ func deleteElement(arr: [Int]?) -> Int {
     return result
 }
 
+func push(element: Int){
+    
+    globalArr.append(element)
+    makeMinHeap(arr: globalArr)
+    
+    return
+}
+
+
 var globalArr = [8, 4, 12, 3, 1, 22]
 var globalArr1 = [Int]()
 print(globalArr)
 makeMinHeap(arr: globalArr)
 print(globalArr)
-print(deleteElement(arr: globalArr))
-print(deleteElement(arr: globalArr1))
+print(pop(arr: globalArr))
+print(pop(arr: globalArr1))
 print(globalArr)
+print(push(element: 5))
+print(globalArr)
+
 
