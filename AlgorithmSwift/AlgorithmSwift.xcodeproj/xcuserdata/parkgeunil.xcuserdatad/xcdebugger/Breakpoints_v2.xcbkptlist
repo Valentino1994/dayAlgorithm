@@ -418,7 +418,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "53"
             endingLineNumber = "53"
-            landmarkName = "deleteElement(arr:)"
+            landmarkName = "pop(arr:)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
@@ -434,7 +434,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "49"
             endingLineNumber = "49"
-            landmarkName = "deleteElement(arr:)"
+            landmarkName = "pop(arr:)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
@@ -450,7 +450,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "48"
             endingLineNumber = "48"
-            landmarkName = "deleteElement(arr:)"
+            landmarkName = "pop(arr:)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>

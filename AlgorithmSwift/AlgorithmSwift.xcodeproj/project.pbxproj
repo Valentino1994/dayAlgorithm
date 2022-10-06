@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		222899A828EBD8AA0038D6F8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222899A728EBD8AA0038D6F8 /* main.swift */; };
+		22C988B328EDD6F3003859FF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C988B228EDD6F3003859FF /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -87,6 +88,7 @@
 		22C927D228332A7800E52C9B /* 11723.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11723.swift; sourceTree = "<group>"; };
 		22C927D328332AE500E52C9B /* 13023.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 13023.swift; sourceTree = "<group>"; };
 		22C927D5283531D200E52C9B /* 10819.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10819.swift; sourceTree = "<group>"; };
+		22C988B228EDD6F3003859FF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		22D4B0A32828FCF00012647F /* 1759.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1759.swift; sourceTree = "<group>"; };
 		22D4B0A52829E59E0012647F /* 1697_재귀.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1697_재귀.swift"; sourceTree = "<group>"; };
 		22D4B0A72829F1810012647F /* 1697_반복문.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1697_반복문.swift"; sourceTree = "<group>"; };
@@ -146,7 +148,8 @@
 		2219F3EC28D6FD1E000EBF22 /* Theory */ = {
 			isa = PBXGroup;
 			children = (
-				222899A628EBD8A20038D6F8 /* Heap */,
+				22C988B128EDD6D9003859FF /* e.g. Heap */,
+				222899A628EBD8A20038D6F8 /* MyHeap */,
 			);
 			path = Theory;
 			sourceTree = "<group>";
@@ -211,12 +214,12 @@
 			path = "5014_스타트링크";
 			sourceTree = "<group>";
 		};
-		222899A628EBD8A20038D6F8 /* Heap */ = {
+		222899A628EBD8A20038D6F8 /* MyHeap */ = {
 			isa = PBXGroup;
 			children = (
 				222899A728EBD8AA0038D6F8 /* main.swift */,
 			);
-			path = Heap;
+			path = MyHeap;
 			sourceTree = "<group>";
 		};
 		2228EAC4289E27F400EE46DE /* Test */ = {
@@ -463,6 +466,14 @@
 			path = "11403_경로찾기";
 			sourceTree = "<group>";
 		};
+		22C988B128EDD6D9003859FF /* e.g. Heap */ = {
+			isa = PBXGroup;
+			children = (
+				22C988B228EDD6F3003859FF /* main.swift */,
+			);
+			path = "e.g. Heap";
+			sourceTree = "<group>";
+		};
 		22FCE75828C5B55C00ACC9DF /* Lv2_프렌즈4블록 */ = {
 			isa = PBXGroup;
 			children = (
@@ -531,6 +542,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22C988B328EDD6F3003859FF /* main.swift in Sources */,
 				222899A828EBD8AA0038D6F8 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
