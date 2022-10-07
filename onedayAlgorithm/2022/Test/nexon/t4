@@ -1,0 +1,15 @@
+SELECT a.party, count(a.party)
+FROM Candidates AS a
+INNER JOIN (
+    SELECT candidate_id
+    FROM (
+        SELECT candidate_id, ROW_NUMBER() OVER (
+            PARTITION BY constituency_id
+            ORDER BY votes
+            DESC
+        ) AS row_index from Results
+    ) AS t
+    WHERE row_index = 1
+) AS b
+ON a.id = candidate_id
+GROUP BY party
