@@ -6,10 +6,6 @@
 	objectVersion = 55;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		2289323928F0484800753F94 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2289323828F0484800753F94 /* main.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		22A8D3BF2816356F001B6294 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -56,6 +52,8 @@
 		22522BAB28DE8D0E00442A0D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		22522BB028E150B900442A0D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		22522BB328E1643F00442A0D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		226AC2FC28F1A1FF005FD43B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		226AC2FE28F1A207005FD43B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		226DA11128DAF6E700E59B3A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		226DA11328DB42A400E59B3A /* ranker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ranker.swift; sourceTree = "<group>"; };
 		226DA11528DB46BA00E59B3A /* my.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my.swift; sourceTree = "<group>"; };
@@ -152,6 +150,7 @@
 		2219F3EC28D6FD1E000EBF22 /* Theory */ = {
 			isa = PBXGroup;
 			children = (
+				226AC2F928F1A1A8005FD43B /* MST */,
 				22C988B128EDD6D9003859FF /* e.g. Heap */,
 				222899A628EBD8A20038D6F8 /* MyHeap */,
 			);
@@ -344,6 +343,31 @@
 			);
 			name = "2206_벽부수기_bfs";
 			path = "2206_벽부수기_테스트";
+			sourceTree = "<group>";
+		};
+		226AC2F928F1A1A8005FD43B /* MST */ = {
+			isa = PBXGroup;
+			children = (
+				226AC2FB28F1A1BC005FD43B /* Kruskal */,
+				226AC2FA28F1A1B0005FD43B /* Prim */,
+			);
+			path = MST;
+			sourceTree = "<group>";
+		};
+		226AC2FA28F1A1B0005FD43B /* Prim */ = {
+			isa = PBXGroup;
+			children = (
+				226AC2FC28F1A1FF005FD43B /* main.swift */,
+			);
+			path = Prim;
+			sourceTree = "<group>";
+		};
+		226AC2FB28F1A1BC005FD43B /* Kruskal */ = {
+			isa = PBXGroup;
+			children = (
+				226AC2FE28F1A207005FD43B /* main.swift */,
+			);
+			path = Kruskal;
 			sourceTree = "<group>";
 		};
 		226DA11028DAF6D500E59B3A /* 2468_안전한영역 */ = {
@@ -599,7 +623,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2289323928F0484800753F94 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
