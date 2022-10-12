@@ -15,17 +15,19 @@ func prim(graph: [[[Int]]], startNode: Int) {
     var d = Array(repeating: 987654321, count: nodes)
     d[startNode] = 0
     
+    // 방문한 곳은 또 가지 않는다.
     var visited = Array(repeating: 0, count: nodes)
-    
     while S.count < nodes {
+        // u는 현재 노드의 거리 중에 가장 짧은 가중치를 가진 노드를 찾는다.
         let u = extraMin(d: d)
         S.append(u)
         visited[u] = 1
         
+        // 그 가중치를 가진 노드와 연결된 노드를 돌면서
         for nodeInfo in graph[u] {
             let nodeIndex = nodeInfo[0]
             let nodeEdge = nodeInfo[1]
-            
+            // 방문하지 않은 노드이고 현재 가중치가 node에 저장된 가중치보다 작으면 바꿔준다.
             if visited[nodeIndex] == 0 && nodeEdge < d[nodeIndex] {
                 d[nodeIndex] = nodeEdge
             }
@@ -50,17 +52,6 @@ func prim(graph: [[[Int]]], startNode: Int) {
     print(S)
     print(d)
 }
-
-
-// 1. 현재 정점을 기준으로 갈 수 있는 모든 노드에 각 노드의 가중치를 넣고 저장해둔다.
-
-// 2. 저장된 값 중 최소값의 노드를 꺼낸다.
-
-// 3. 현재 노드에서 갈 수 있는 모든 곳을 본다.
-
-// 4. 모든 곳을 보면서 현재 노드에 저장된 값보다 지금 노드에서 가는 가중치의 값이 더 적다면 이 가중치로 바꿔준다.
-
-// 5.
 
 // Graph를 만드는 방법
 
