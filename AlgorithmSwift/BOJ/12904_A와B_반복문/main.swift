@@ -29,5 +29,4 @@ while true {
     }
 }
 
-
 print(answer)
