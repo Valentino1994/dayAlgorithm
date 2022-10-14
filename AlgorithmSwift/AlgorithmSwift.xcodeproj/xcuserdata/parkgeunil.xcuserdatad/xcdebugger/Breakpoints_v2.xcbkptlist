@@ -566,5 +566,37 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "011684A6-5337-4571-A76F-23C0885FEB45"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BOJ/1197_&#x110e;&#x116c;&#x1109;&#x1169;&#x1109;&#x1173;&#x1111;&#x1162;&#x1102;&#x1175;&#x11bc;&#x1110;&#x1173;&#x1105;&#x1175;_&#x110f;&#x1173;&#x1105;&#x116e;&#x1109;&#x1173;&#x110f;&#x1161;&#x11af;/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "krusukal(edges:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B206765-B69E-4380-8E39-4AA98D2CBB3C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BOJ/1197_&#x110e;&#x116c;&#x1109;&#x1169;&#x1109;&#x1173;&#x1111;&#x1162;&#x1102;&#x1175;&#x11bc;&#x1110;&#x1173;&#x1105;&#x1175;_&#x110f;&#x1173;&#x1105;&#x116e;&#x1109;&#x1173;&#x110f;&#x1161;&#x11af;/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
