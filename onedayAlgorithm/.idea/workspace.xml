@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9156a20a-5943-4ab0-b341-b26bd904d3ce" name="Default Changelist" comment="" />
+    <list default="true" id="9156a20a-5943-4ab0-b341-b26bd904d3ce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,6 +111,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/2022/03_March/20th" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -294,10 +298,10 @@
     <list>
       <item itemvalue="Python.s1" />
       <item itemvalue="Python.t1 (1)" />
-      <item itemvalue="Python.t6" />
       <item itemvalue="Python.t1 (2)" />
       <item itemvalue="Python.t2 (1)" />
       <item itemvalue="Python.t3" />
+      <item itemvalue="Python.t6" />
     </list>
     <recent_temporary>
       <list>
@@ -458,11 +462,6 @@
           <url>file://$PROJECT_DIR$/2022/Test/1015/t1.py</url>
           <line>18</line>
           <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/2022/Test/1015/t3.py</url>
-          <line>69</line>
-          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
