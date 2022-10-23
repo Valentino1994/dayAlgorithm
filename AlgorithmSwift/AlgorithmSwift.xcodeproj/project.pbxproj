@@ -464,12 +464,12 @@
 			path = t0;
 			sourceTree = "<group>";
 		};
-		229DEE3528F95486003D018B /* New Group */ = {
+		229DEE3528F95486003D018B /* 1194_Ranker */ = {
 			isa = PBXGroup;
 			children = (
 				229DEE3728F9549B003D018B /* main.swift */,
 			);
-			path = "New Group";
+			path = 1194_Ranker;
 			sourceTree = "<group>";
 		};
 		22A8D3B82816356F001B6294 = {
@@ -496,7 +496,7 @@
 		22A8D3C32816356F001B6294 /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
-				229DEE3528F95486003D018B /* New Group */,
+				229DEE3528F95486003D018B /* 1194_Ranker */,
 				22DEA81E28F91E14007C4605 /* 1197_최소스패닝트리_크루스칼 */,
 				22DEA81228F8F50A007C4605 /* 1197_최소스패닝트리_프림_메모리초과 */,
 				22DEA80F28F7D805007C4605 /* 2583_영역구하기 */,
