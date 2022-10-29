@@ -16,8 +16,6 @@ for _ in 0..<N {
     things.append(thing)
 }
 
-//things.sort(by: { $0[0] < $1[0] })
-
 var dp = Array(repeating: Array(repeating: 0, count: K+1), count: N+1)
 
 for i in 1...N {
@@ -31,5 +29,4 @@ for i in 1...N {
 }
 
 print(dp[N][K])
-//print(dp.max()!)
 
