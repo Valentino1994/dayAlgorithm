@@ -34,10 +34,7 @@ while connected_edges < V and i < E:
     s, e, w = edges[i]
 
     if find_set(s) != find_set(e):
-        print(s, e, w)
-        print(p)
         union(s, e)
-        print(p)
         connected_edges += 1
         min_cost += w
 
