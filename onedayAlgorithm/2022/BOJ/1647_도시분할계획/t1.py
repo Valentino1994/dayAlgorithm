@@ -9,6 +9,7 @@ def find_set(x):
         return p[x]
 
 def union(a, b):
+    # p[find_set(a)] = find_set(b) 요걸 아래처럼 최적화 할 수 있음
     a = find_set(a)
     b = find_set(b)
 
