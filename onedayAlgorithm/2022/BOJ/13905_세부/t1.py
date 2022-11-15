@@ -68,4 +68,5 @@ while queue_index < len(queue):
 
     queue_index += 1
 
+
 print(answer)
