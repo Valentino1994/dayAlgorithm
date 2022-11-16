@@ -50,4 +50,5 @@ while connected_V < N and i < len(sew):
         connected_V += 1
     i += 1
 
+print(p)
 print(answer)
