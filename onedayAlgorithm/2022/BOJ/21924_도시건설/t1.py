@@ -23,9 +23,9 @@ def union(x, y):
 
     if a == b:
         return
-    if rank[a] > rank[b]:
+    if rank[a] < rank[b]:
         p[b] = a
-    elif rank[a] < rank[b]:
+    elif rank[a] > rank[b]:
         p[a] = b
     else:
         p[a] = b
@@ -58,5 +58,6 @@ def check_connected(p):
         if flag != p[i]:
             return False
     return True
+
 answer = (now_sum - shortest_way) if check_connected(p) else -1
 print(answer)
