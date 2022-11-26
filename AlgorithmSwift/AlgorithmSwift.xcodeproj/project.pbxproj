@@ -6,6 +6,10 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2247FA9F2932563B003DE656 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2247FA99293242F8003DE656 /* main.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		22A8D3BF2816356F001B6294 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -47,6 +51,9 @@
 		2247FA8E293221C5003DE656 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2247FA90293227CE003DE656 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2247FA9229323653003DE656 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2247FA95293242ED003DE656 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2247FA97293242F3003DE656 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2247FA99293242F8003DE656 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		224AAF34288108940053E66A /* 1679.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1679.swift; sourceTree = "<group>"; };
 		22522B9B28DDAFC700442A0D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		22522BA328DE8CEB00442A0D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -350,6 +357,7 @@
 		2247FA8B293221B1003DE656 /* t1 */ = {
 			isa = PBXGroup;
 			children = (
+				2247FA95293242ED003DE656 /* main.swift */,
 			);
 			path = t1;
 			sourceTree = "<group>";
@@ -357,6 +365,7 @@
 		2247FA8C293221B4003DE656 /* t2 */ = {
 			isa = PBXGroup;
 			children = (
+				2247FA97293242F3003DE656 /* main.swift */,
 			);
 			path = t2;
 			sourceTree = "<group>";
@@ -364,6 +373,7 @@
 		2247FA8D293221B9003DE656 /* t3 */ = {
 			isa = PBXGroup;
 			children = (
+				2247FA99293242F8003DE656 /* main.swift */,
 			);
 			path = t3;
 			sourceTree = "<group>";
@@ -828,6 +838,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2247FA9F2932563B003DE656 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
