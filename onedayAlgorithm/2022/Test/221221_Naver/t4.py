@@ -16,6 +16,7 @@ def solution(A):
 
     answer = get_answer(start, end)
     alternative_list.append((start, end))
+
     return get_answer(start, end)
 
 def check_alternative(now):
