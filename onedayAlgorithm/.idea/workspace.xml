@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9156a20a-5943-4ab0-b341-b26bd904d3ce" name="Default Changelist" comment="" />
+    <list default="true" id="9156a20a-5943-4ab0-b341-b26bd904d3ce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/2022/BOJ/2170_선긋기/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2023/BOJ/2170_선긋기/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/BOJ/2170_선긋기/t1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2023/BOJ/2170_선긋기/t1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/BOJ/6593_상범빌딩/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2023/오답노트/6593_상범빌딩/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/BOJ/6593_상범빌딩/t1_dfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/2023/오답노트/6593_상범빌딩/t1_dfs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/BOJ/6593_상범빌딩/t2_bfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/2023/오답노트/6593_상범빌딩/t2_bfs.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,6 +127,8 @@
       <recent name="$PROJECT_DIR$/2022/03_March/13th" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2023/오답노트" />
+      <recent name="$PROJECT_DIR$/2023/BOJ" />
       <recent name="$PROJECT_DIR$/2022/03_March/12th/BOJ_9489_사촌" />
     </key>
   </component>
