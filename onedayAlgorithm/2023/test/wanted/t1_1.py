@@ -21,4 +21,3 @@ for i in range(N):
 
 print(visited)
 print(max(visited))
-
