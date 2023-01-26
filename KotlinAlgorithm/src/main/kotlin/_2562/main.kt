@@ -7,6 +7,7 @@ import java.util.StringTokenizer
 
 fun main() {
     val bufferedReader = BufferedReader(InputStreamReader(System.`in`))
+
     val list = mutableListOf<Int>()
     for (i in 0..8) {
         val readLine = bufferedReader.readLine()
