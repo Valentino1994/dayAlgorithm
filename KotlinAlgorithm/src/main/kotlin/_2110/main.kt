@@ -2,9 +2,6 @@ package _2110
 
 import java.util.*
 
-class bj2110 {
-}
-
 /**
  * 수직선 위에 n개의 집이 서로 다른 좌표에 있다.
  * c개의 공유기를 n개의 집에 설치할 예정이다.
