@@ -11,18 +11,17 @@ fun main() {
     var N = Integer.parseInt(br.readLine())
     var st = StringTokenizer(br.readLine())
     var arr = IntArray(N);
-    var max = Integer.MIN_VALUE / 16;
+    var max = Integer.MIN_VALUE / 16
 
     for(i : Int in 0 until N) {
-        var num = st.nextToken().toInt();
-        arr[i] = num;
-        max = max(max, num);
+        var num = st.nextToken().toInt()
+        arr[i] = num
+        max = max(max, num)
     }
 
     var sum = 0.00;
     for(i in arr) {
-
-        sum += (100.00*i)/max;
+        sum += (100.00 * i) / max
     }
 
     print(sum / N)
